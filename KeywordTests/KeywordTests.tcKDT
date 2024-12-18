@@ -19,7 +19,15 @@
 				<folder name="Radar" />
 				<folder name="Shipments" />
 			</folder>
-			<folder name="Portal" />
+			<folder name="Portal">
+				<folder name="QuotationPOrtal">
+					<child name="TC_12_146_LCLBuyerRequested" key="{A74BF80F-4E6C-4679-9AF8-97BBB1FC5E46}" path="TC_12_146_LCLBuyerRequested.tcKDTest" />
+					<child name="TC_13_149Ground_BuyerRequested" key="{3905F0D9-E4C3-4B0E-A653-2C4C3FD2B27E}" path="TC_13_149Ground_BuyerRequested.tcKDTest" />
+					<child name="TC_14_150_LTLSellerRequested" key="{1F01B46C-4CDC-48BA-820F-1AE31127B9F4}" path="TC_14_150_LTLSellerRequested.tcKDTest" />
+					<child name="TC_15_152AIRBuyerRequested" key="{56084E8C-1A0B-4A1A-9FE3-2B608837F584}" path="TC_15_152AIRBuyerRequested.tcKDTest" />
+					<child name="TC_11_145_FCLBuyerBooked" key="{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" path="TC_11_145_FCLBuyerBooked.tcKDTest" />
+				</folder>
+			</folder>
 		</folder>
 		<folder name="Utils">
 			<folder name="HUB">
@@ -46,6 +54,8 @@
 					<child name="EditSelectedCharge" key="{4D41F93B-3056-41A3-86B5-F54646BFCEF6}" path="EditSelectedCharge.tcKDTest" />
 					<child name="DeleteSelectedCharge" key="{2AE5396F-E21E-4777-8F67-6AC3D5B000B1}" path="DeleteSelectedCharge.tcKDTest" />
 					<child name="CreateNewOffer" key="{BD08AFAE-479D-4DEC-A635-F34607F6966A}" path="CreateNewOffer.tcKDTest" />
+					<child name="VerifyRequestedHub" key="{49B9DDB3-9600-4951-8B7A-4FDF2BA5B9AE}" path="VerifyRequestedHub.tcKDTest" />
+					<child name="VerifyBookedQuoteHub" key="{98004720-DD6E-4D15-A4E4-3745B3F2EB54}" path="VerifyBookedQuoteHub.tcKDTest" />
 				</folder>
 				<folder name="Filters">
 					<child name="FilterOpenQuote" key="{4020992C-CCF7-4466-8AD3-384CAF1BB3EC}" path="FilterOpenQuote.tcKDTest" />
@@ -61,12 +71,30 @@
 				<child name="LoginPortal" key="{8F85BC38-2794-48A8-B576-5FB9285B9B91}" path="LoginPortal.tcKDTest" />
 			</folder>
 			<folder name="Portal">
-				<child name="SearchQuotePortal" key="{97A09146-C1B1-4061-99F9-C3396F2265AA}" path="SearchQuotePortal.tcKDTest" />
-				<child name="VerifyQuotePortal" key="{C6AED989-2481-4F17-A203-7FDB45AE605A}" path="VerifyQuotePortal.tcKDTest" />
+				<folder name="Quotation">
+					<child name="SearchQuotePortal" key="{97A09146-C1B1-4061-99F9-C3396F2265AA}" path="SearchQuotePortal.tcKDTest" />
+					<child name="VerifyQuotePortal" key="{C6AED989-2481-4F17-A203-7FDB45AE605A}" path="VerifyQuotePortal.tcKDTest" />
+					<child name="CreateQuoteFirst" key="{7D7642A8-C78C-4014-B75B-DB5D0154F73A}" path="CreateQuoteFirst.tcKDTest" />
+					<child name="SelectLCLPortal" key="{3663830B-BC3E-4143-B578-87585AD1598B}" path="SelectLCLPortal.tcKDTest" />
+					<child name="OriginDestinationPOrtal" key="{28EA6E5F-33C9-42CB-9909-12605787B7E4}" path="OriginDestinationPOrtal.tcKDTest" />
+					<child name="BuyerAndDimensions" key="{764262AD-0761-4361-908E-B547DBFA88FC}" path="BuyerAndDimensions.tcKDTest" />
+					<child name="RequestNewRate" key="{FFDC5FC0-0E81-4445-AF1D-F0DE64960A58}" path="RequestNewRate.tcKDTest" />
+					<child name="SelectGroundPOrtal" key="{73BB021E-EC71-4C5B-AE81-96E06C672667}" path="SelectGroundPOrtal.tcKDTest" />
+					<child name="BuyerAnd40" key="{8CFDB2C8-1E94-4CD8-93CF-613E95A6B134}" path="BuyerAnd40.tcKDTest" />
+					<child name="SelectGroundLTLPortal" key="{EAFAF91B-894B-40B5-BED1-3B9B573220CA}" path="SelectGroundLTLPortal.tcKDTest" />
+					<child name="SellerAndDimensions" key="{FC286FB6-23CD-409C-B70B-B18EFE65DCA0}" path="SellerAndDimensions.tcKDTest" />
+					<child name="SelectAIRPortal" key="{BBB1D450-F291-400B-9848-050741C0A144}" path="SelectAIRPortal.tcKDTest" />
+					<child name="BuyerAndDimHaz" key="{C1438B1E-3DDB-40BE-8111-DABADEF2EE34}" path="BuyerAndDimHaz.tcKDTest" />
+					<child name="SelectFCLPortal" key="{AF14B5DA-D59F-462C-8F56-9A976DBA6F6A}" path="SelectFCLPortal.tcKDTest" />
+					<child name="BookedQuoteVerifyShipment" key="{437D0458-9DB4-4D15-895E-B86BAF642BB1}" path="BookedQuoteVerifyShipment.tcKDTest" />
+					<child name="VerifyNotifications" key="{8957D3C2-DFDF-4836-8777-419F31169B74}" path="VerifyNotifications.tcKDTest" />
+					<child name="VerifyBookedQuotePOrtal" key="{C073ABE1-AEF9-469B-A76F-47235915C29D}" path="VerifyBookedQuotePOrtal.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Email">
 				<child name="VerifyQuoteGmail" key="{65BC1BE0-C98E-4ED0-A483-CEC8D238B6EC}" path="VerifyQuoteGmail.tcKDTest" />
 				<child name="VerifyQuoteGmailNOTExists" key="{B7AE97E0-7B91-4CA2-8F0C-681830CA6FC9}" path="VerifyQuoteGmailNOTExists.tcKDTest" />
+				<child name="VerifyGmailBooked" key="{CC620639-9CBE-457C-B578-89F314D4A8AC}" path="VerifyGmailBooked.tcKDTest" />
 			</folder>
 		</folder>
 	</children>
