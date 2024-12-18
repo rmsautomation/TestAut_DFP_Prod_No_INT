@@ -94,6 +94,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC__18_QWYK_281_Hub_Radar" key="{5470A10F-BC45-4AE0-86A4-D2BDB89DFEAF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{867D1FC1-457F-4CFD-B461-EA5DCF835914}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{905CCE08-4086-4C02-B278-D09EFC163554}">

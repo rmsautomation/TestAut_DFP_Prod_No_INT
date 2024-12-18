@@ -18,7 +18,9 @@
 				<folder name="Home">
 					<child name="TC_17_QWYK_280_Hub_Home" key="{00DFE41D-0EA2-4FD7-A09F-953303243FDB}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
 				</folder>
-				<folder name="Radar" />
+				<folder name="Radar">
+					<child name="TC__18_QWYK_281_Hub_Radar" key="{867D1FC1-457F-4CFD-B461-EA5DCF835914}" path="TC__18_QWYK_281_Hub_Radar.tcKDTest" />
+				</folder>
 				<folder name="Shipments">
 					<child name="TC_16_HubShipmentsNoINTFilters" key="{6E2EBED5-493B-4656-9AF4-49B7D43905EB}" path="TC_16_HubShipmentsNoINTFilters.tcKDTest" />
 				</folder>
