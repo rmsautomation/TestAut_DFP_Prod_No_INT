@@ -1,0 +1,3664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D68F252B-F057-4122-8678-616B3C570175}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{526EA980-854C-48E1-AEB4-CB4F000C874C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{C257074E-B38B-46C6-958B-5A0A910742DB}">
+								<Image FileName="-94261149" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu" Key="{A44BF2AF-1C93-4EF2-B248-41EA51C287A4}">
+								<Image FileName="-94261149" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.qwykportals.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerHubheader" Key="{6F7D6F05-51D0-4E1E-9952-A4048CA34618}">
+										<Image FileName="2041663439" Left="0" Top="121" Right="1920" Bottom="175" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHeader" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbar" Key="{A7B118AD-0EF7-4AAC-A4EF-C02590126D19}">
+										<Image FileName="2041663439" Left="1763" Top="121" Right="1905" Bottom="175" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;hubHeader&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbarprofileitem" Key="{B052660F-FBFC-42B1-A641-48C8EB25DDD2}">
+										<Image FileName="2041663439" Left="1837" Top="121" Right="1905" Bottom="175" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbarProfileItem" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-root/app-index-new/header[@id=&apos;hubHeader&apos;]//ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonHubnavbarprofileitembutton" Key="{B5C5E70F-B6EA-45C4-883E-C86CC9C369EB}">
+										<Image FileName="2041663439" Left="1840" Top="129" Right="1901" Bottom="166" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbarProfileItemButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;hubNavbarProfileItem&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonHubnavbarlogoutlistbutton" Key="{8AD525D5-8FEF-424C-BE26-918A839D5D54}">
+										<Image FileName="1303371592" Left="1636" Top="300" Right="1901" Bottom="338" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbarLogoutListButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log out&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navQuotations" Key="{13AE7D1F-3396-4015-9EA8-C8E1F82ECA7C}">
+										<Image FileName="-6158450" Left="0" Top="175" Right="50" Bottom="677" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Quotations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotations" Key="{8362E1A2-F00D-4C76-9820-89B88717C5A3}">
+										<Image FileName="-6158450" Left="0" Top="266" Right="51" Bottom="311" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Quotations&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkQuotations" Key="{458266D8-02F0-4F4B-A470-2B7757DC2888}">
+										<Image FileName="-6158450" Left="0" Top="266" Right="51" Bottom="312" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgImg" Key="{78397A19-DF9B-492B-A336-245561714232}">
+										<Image FileName="-6158450" Left="15" Top="280" Right="33" Bottom="294" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/a/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClosed" Key="{A771473D-2568-43CD-A988-C64E3681962C}">
+										<Image FileName="-136866880" Left="227" Top="239" Right="295" Bottom="262" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Closed&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRmsautomation24GmailCom" Key="{E21A31E4-A547-45A3-9486-64B43FDD1DF6}">
+										<Image FileName="27311188" Left="770" Top="558" Right="973" Bottom="576" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;| rmsautomation24@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select/ng-dropdown-panel//div[@id=&apos;a87c918bb1d4-2&apos;]//span[contains(@class, &apos;text-muted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a87c918bb1d4-2&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//div[@id=&apos;a87c918bb1d4-2&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotations2" Key="{D7E381D3-DA5D-4398-8EFD-BC331EF1ABBA}">
+										<Image FileName="1345713725" Left="51" Top="235" Right="250" Bottom="277" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/ul/li[contains(@class, &apos;nav-inner-level-header&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkQuotations2" Key="{196999FF-00C4-4C43-A2EA-CD82C1056BA4}">
+										<Image FileName="1345713725" Left="51" Top="235" Right="250" Bottom="277" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Quotations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOpen" Key="{712D51FB-0C15-4CA2-AD80-F63430AC0F4F}">
+										<Image FileName="-1086388373" Left="227" Top="257" Right="284" Bottom="280" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;status-badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClosed2" Key="{15906BBC-8281-42A7-AC1A-8C493FCAFA38}">
+										<Image FileName="-1483095974" Left="227" Top="239" Right="295" Bottom="262" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Closed&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;status-badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogInMagayaDfp" Key="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
+								<Image FileName="-94261149" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-prod.us.auth0.com/u/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionWelcome" Key="{3922FC38-4A33-4443-917A-984773C640B1}">
+										<Image FileName="-609175973" Left="760" Top="311" Right="1160" Bottom="851" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;cfed79e48&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmailAddress" Key="{F283179D-0A2E-4509-B5B7-61917EC17846}">
+										<Image FileName="-609175973" Left="800" Top="561" Right="1120" Bottom="792" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;cc7925496&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{1629A23F-44C9-48D6-92FB-42AA141055CB}">
+										<Image FileName="-609175973" Left="800" Top="561" Right="1120" Bottom="613" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{CC236B34-B9C8-4715-BE84-ED532A2A9C68}">
+										<Image FileName="408491553" Left="801" Top="626" Right="1075" Bottom="678" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Password&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAction" Key="{4BFB26B0-4A85-47B3-B471-D47C8324C591}">
+										<Image FileName="-354698219" Left="800" Top="740" Right="1120" Bottom="792" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;action&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;default&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;c643d8083&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageQuotationsMagayaDigitalFreig" Key="{A5FE98F8-80D1-4E5E-AD95-177FF3539C60}">
+								<Image FileName="1401500294" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.qwykportals.com/quotations/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionQwyk" Key="{EA83B009-B19F-4CBA-AD3B-1F6A07E851EA}">
+										<Image FileName="-1092869259" Left="50" Top="121" Right="1903" Bottom="2506" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateQuotation" Key="{85A8AB95-1165-45E4-A40B-D0F1F340DC35}">
+										<Image FileName="-1092869259" Left="1732" Top="233" Right="1888" Bottom="269" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNewQuotationMagayaDigitalFre" Key="{CDC5B114-3DE6-4643-9151-1C779D69E2F5}">
+								<Image FileName="1401500294" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.qwykportals.com/quotations/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formRequest" Key="{A6D68D58-2820-453D-BE9D-2D0128C90602}">
+										<Image FileName="720386515" Left="192" Top="280" Right="1762" Bottom="792" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Request&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-tns-c293-8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{7254A223-8CF5-4D5E-AFF5-1C2701BF6E84}">
+										<Image FileName="720386515" Left="626" Top="392" Right="1286" Bottom="414" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//ng-select//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//ng-select//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfp24GmailCom" Key="{C82FB8A1-930E-4E91-9E29-958C3F3E2100}">
+										<Image FileName="1091201056" Left="731" Top="491" Right="930" Bottom="509" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;| automationdfp24@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select/ng-dropdown-panel//div[@id=&apos;aac367f3efc6-1&apos;]//span[contains(@class, &apos;text-muted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;aac367f3efc6-1&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//div[@id=&apos;aac367f3efc6-1&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox2" Key="{C0FCAADD-5D44-4050-B0CA-851F5390AF40}">
+										<Image FileName="-1241565418" Left="626" Top="473" Right="910" Bottom="495" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[2]/div/ng-select/div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;load_type&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/div/ng-select/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFullLoad" Key="{0091D7CE-62D2-4CFC-A2AD-BC73B291A72F}">
+										<Image FileName="-394613505" Left="626" Top="512" Right="680" Bottom="530" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Full load&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a92d159cc259-0&apos;]/span[contains(@class, &apos;ng-tns-c293-8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a92d159cc259-0&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox3" Key="{4BD35182-084A-4E17-859C-0F52BB575B0B}">
+										<Image FileName="1197505839" Left="1003" Top="473" Right="1287" Bottom="495" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]/ng-select//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;transport_mode&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/ng-select//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="ocean" Key="{78C01B50-E9FB-420E-9371-B52E5F126D5E}">
+										<Image FileName="-742740242" Left="993" Top="503" Right="1337" Bottom="541" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Ocean&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-option-marked&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-dropdown-panel[@role=&apos;listbox&apos;]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelControlbutton" Key="{E49D1577-D409-4F09-B21C-470E03C062EE}">
+										<Image FileName="738630090" Left="615" Top="547" Right="1337" Bottom="583" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#controlButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Origin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Origin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//qwyk-location-typeahead/div[contains(@class, &apos;lta-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-location-typeahead[@id=&apos;origin&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-location-typeahead/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchbox" Key="{4FD583A4-FDEE-406C-BD09-0E825BD15C52}">
+										<Image FileName="956836136" Left="614" Top="547" Right="1339" Bottom="583" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-location-typeahead-panel/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="firstLocation" Key="{0131BE4D-12E4-44F2-9F6F-0F61C5C4369E}">
+										<Image FileName="-1644776609" Left="599" Top="598" Right="1354" Bottom="933" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//a[contains(@class, &apos;lta-suggestion-item&apos;) and contains(@class, &apos;list-group-item-action&apos;)])[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLosAngelesCa" Key="{F4FA5D15-914C-49DC-9B3D-2D54C2AAB0F6}">
+										<Image FileName="-1644776609" Left="599" Top="599" Right="1354" Bottom="666" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Los Angeles, CA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLosAngelesCa2" Key="{123F951C-F71B-4A3C-A57D-9246D736BB9C}">
+										<Image FileName="-1644776609" Left="618" Top="612" Right="722" Bottom="630" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Los Angeles, CA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelControlbutton2" Key="{C754547F-0682-447A-94EA-471B4A5E9826}">
+										<Image FileName="-1668592450" Left="615" Top="708" Right="1337" Bottom="744" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Destination&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;Destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/qwyk-location-typeahead/div[contains(@class, &apos;lta-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-location-typeahead[@id=&apos;destination&apos;]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShanghaiPt" Key="{4D68387C-2675-4700-9CF6-F91C702FDEAB}">
+										<Image FileName="1672374493" Left="599" Top="759" Right="1354" Bottom="1094" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Shanghai Pt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;lta-suggestions-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-location-typeahead-panel/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShanghaiPt" Key="{9483E785-8965-41EC-B555-80429BFE7C01}">
+										<Image FileName="1672374493" Left="599" Top="760" Right="1354" Bottom="827" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Shanghai Pt&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCnshg" Key="{D0D666FE-B612-430C-BBCB-6479B193F2A1}">
+										<Image FileName="1672374493" Left="704" Top="773" Right="752" Bottom="791" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;CNSHG&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{BA11F24C-01B2-4076-8DFC-446422664F54}">
+										<Image FileName="1951630436" Left="1228" Top="882" Right="1338" Bottom="918" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Continue&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox4" Key="{B9E808CF-70BA-4C90-8459-D6241EA44468}">
+										<Image FileName="-1601661563" Left="226" Top="745" Right="910" Bottom="767" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;commodity&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAgricultureFruitsAnd" Key="{4BC52759-7B79-4A7C-A3C7-C0E30B87EA1B}">
+										<Image FileName="56606073" Left="226" Top="784" Right="449" Bottom="802" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Agriculture (Fruits and Vegetables)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span[contains(@class, &apos;ng-option-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;commodity&apos;]//div/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//ng-select[@id=&apos;commodity&apos;]/ng-dropdown-panel[@role=&apos;listbox&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox5" Key="{5171B221-06E1-4F93-A15D-351700363B14}">
+										<Image FileName="483005772" Left="226" Top="825" Right="910" Bottom="847" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[3]/ng-select//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;currency&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[3]/ng-select//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUSD" Key="{C59DEB86-418B-417C-BAFF-1BAD73220025}">
+										<Image FileName="-937855323" Left="216" Top="782" Right="960" Bottom="820" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;USD - United States Dollar&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox6" Key="{5CB4C59D-69D5-4DFD-9B12-F8C147BC573F}">
+										<Image FileName="-1954251546" Left="485" Top="600" Right="824" Bottom="622" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div/div[2]/div/div//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode40Container" Key="{533A2F20-8EB3-45B4-A363-EA4BC5EEDC46}">
+										<Image FileName="298602703" Left="485" Top="677" Right="570" Bottom="695" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&quot;40&apos; Container&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;acf5d7f42c37-1&apos;]/span[contains(@class, &apos;ng-option-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;acf5d7f42c37-1&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//div[@id=&apos;acf5d7f42c37-1&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRequireOriginCharges" Key="{FBF9ACEA-39A7-4F0F-A6A0-013469FADAE3}">
+										<Image FileName="-1771686443" Left="249" Top="777" Right="392" Bottom="799" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Require origin charges&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div[2]/div[2]/div//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRequireDestinationCharges" Key="{2324FA65-3AFE-4B6E-BC8E-8751417E3F41}">
+										<Image FileName="932973813" Left="1284" Top="777" Right="1463" Bottom="799" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Require destination charges&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[3]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelOriginCustomsClearance" Key="{BA5D1C5B-588E-45AE-BE25-C4D13F837EC0}">
+										<Image FileName="-1379459225" Left="249" Top="807" Right="412" Bottom="829" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Origin customs clearance&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[4]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDestinationCustomsClearance" Key="{2F3FB5FE-C39C-4DEC-9549-B113E56D201D}">
+										<Image FileName="-786795497" Left="767" Top="807" Right="965" Bottom="829" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Destination customs clearance&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div[5]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateQuotation" Key="{A99168A9-9A9E-49FD-9918-F6DD5677F9F6}">
+										<Image FileName="-637521733" Left="1555" Top="933" Right="1762" Bottom="979" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/qwyk-quotation-create//form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionQwyk" Key="{93BAB2F2-B7B8-438A-8BE7-71C9DCB11101}">
+										<Image FileName="-1813358334" Left="58" Top="129" Right="1911" Bottom="1915" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOpen" Key="{4238FFFD-F5A7-439E-8DB7-8871F2202B82}">
+										<Image FileName="-1813358334" Left="227" Top="239" Right="284" Bottom="262" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Open&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuotationCreatedByAylin" Key="{243AC75B-0318-41C6-8188-28676E7B0F71}">
+										<Image FileName="-1133521345" Left="295" Top="793" Right="626" Bottom="818" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Quotation created by Aylin Rodriguez&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuotationCreatedByAylin2" Key="{BC6C999A-9AF6-42E6-8DA1-5FB06F8A2B03}">
+										<Image FileName="711103078" Left="295" Top="793" Right="626" Bottom="818" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Quotation created by Aylin Rodriguez&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{6AA2FD27-7FDB-48F2-8D61-9881911A03E5}">
+										<Image FileName="617956554" Left="295" Top="844" Right="632" Bottom="866" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Quotation published by Aylin Rodriguez&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-activity-event-list-item/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{F492F58E-A24B-48D3-88AC-811306CBD8EF}">
+										<Image FileName="-2139874216" Left="295" Top="844" Right="632" Bottom="866" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Quotation published by Aylin Rodriguez&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-activity-event-list-item/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotation" Key="{A1418374-B338-4A8E-8440-7C56FDD5FB6E}">
+										<Image FileName="443767248" Left="219" Top="285" Right="478" Bottom="317" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[contains(text(), &apos;Quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="quoteId" Key="{42E5A1BC-B2A4-4E72-97C1-80D81B61EAD3}">
+										<Image FileName="443767248" Left="342" Top="284" Right="478" Bottom="316" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;QUO&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(text(), &apos;QUO&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPublishingTheQuotationMake" Key="{71D27871-00B9-4A84-A869-E5EBDFFDE4E4}">
+										<Image FileName="-545671635" Left="1536" Top="225" Right="1679" Bottom="261" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Publish quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonYes" Key="{84F1A629-39DE-46F3-A7BA-777B4849F685}">
+										<Image FileName="702285190" Left="1082" Top="621" Right="1131" Bottom="657" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Yes&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;confirm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-simple-modal/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navOffers" Key="{0F67901D-8D34-4B73-89E3-7839E11E34D1}">
+										<Image FileName="-625050035" Left="219" Top="260" Right="1733" Bottom="303" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Offers&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail/nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="offersHub" Key="{9356101B-6310-4773-9566-7A0A82D0532F}">
+										<Image FileName="-625050035" Left="306" Top="273" Right="323" Bottom="291" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//a/span[contains(@class, &apos;badge&apos;)])[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelFullLoad" Key="{5B01425B-8E6B-4AE1-A9D0-BB370D1D4814}">
+										<Image FileName="-1732972952" Left="616" Top="503" Right="960" Bottom="541" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Full load&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-option-marked&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-dropdown-panel[@role=&apos;listbox&apos;]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTruck" Key="{3A8FBFAA-420E-494D-A7F6-447093295031}">
+										<Image FileName="162398781" Left="1003" Top="549" Right="1039" Bottom="567" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Truck&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a41e1ce6de6f-1&apos;]/span[contains(@class, &apos;ng-tns-c293-8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a41e1ce6de6f-1&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//div[@id=&apos;a41e1ce6de6f-1&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSystemId" Key="{97D2968B-1C65-4F61-9E03-C23C8E4FA22A}">
+										<Image FileName="-1710353751" Left="66" Top="352" Right="1887" Bottom="488" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;System ID&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;card-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSystemId" Key="{0883676F-D46F-45C8-8562-A33BA887E46D}">
+										<Image FileName="-1710353751" Left="85" Top="381" Right="523" Bottom="417" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;System ID&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#friendly_id" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{2CD8354C-70FA-4626-9EDF-32198F7CA697}">
+										<Image FileName="1331261561" Left="1741" Top="432" Right="1812" Bottom="468" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-list-search-form//form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{5A872EF5-55E1-4CEE-9208-868CA5F54B42}">
+										<Image FileName="-1498128072" Left="1678" Top="225" Right="1718" Bottom="261" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-header//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;group&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCloseQuotation" Key="{1DB05DB4-9A59-4496-BC54-B35F628078D6}">
+										<Image FileName="188462234" Left="1535" Top="302" Right="1717" Bottom="332" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Close quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-header//div[@role=&apos;group&apos;]//button[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePartialLoad" Key="{7CFBB24A-861C-4C74-817D-C2A16D578710}">
+										<Image FileName="935684125" Left="626" Top="549" Right="699" Bottom="567" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Partial load&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a391d5aebbe3-1&apos;]/span[contains(@class, &apos;ng-tns-c293-8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;a391d5aebbe3-1&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//div[@id=&apos;a391d5aebbe3-1&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAir" Key="{75F639B7-C207-490A-B7D4-BC5A4A811EE6}">
+										<Image FileName="366443102" Left="993" Top="503" Right="1337" Bottom="541" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Air&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-option-marked&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-dropdown-panel[@role=&apos;listbox&apos;]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCarton" Key="{0AC6683A-DE9D-47D9-8DF7-B96759403F78}">
+										<Image FileName="-1316930352" Left="475" Top="755" Right="1737" Bottom="793" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Carton&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-option-marked&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-dropdown-panel[@role=&apos;listbox&apos;]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="numberinput" Key="{38E63525-E6EE-4BDA-B152-9F1455686DEE}">
+										<Image FileName="-932128331" Left="215" Top="800" Right="872" Bottom="836" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/input[@type=&apos;number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div[2]/div/div/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div/div[2]/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="numberinput2" Key="{2B46A5BB-DAF0-4280-BCA0-8C19A6F933F5}">
+										<Image FileName="992132579" Left="992" Top="800" Right="1212" Bottom="836" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//div/div[2]/div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="numberinput3" Key="{009DB129-3A88-4534-BFCA-8EB5F6292BB1}">
+										<Image FileName="-85837898" Left="1210" Top="800" Right="1430" Bottom="836" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/input[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="numberinput4" Key="{F19E6337-AF98-447E-A0B0-40D38335DC4B}">
+										<Image FileName="1199415079" Left="1429" Top="800" Right="1649" Bottom="836" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div/div[2]//input[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelHazardousCargo" Key="{C7C1161A-D649-49C1-BD92-A5F87CD340C3}">
+										<Image FileName="-1951055663" Left="249" Top="838" Right="359" Bottom="860" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Hazardous cargo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[7]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRefrigerated" Key="{96DE3A05-D496-47B6-AB72-F0259FF3F143}">
+										<Image FileName="-912496198" Left="767" Top="838" Right="846" Bottom="860" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Refrigerated&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[8]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOverweight" Key="{909BDFBA-0DB3-4E77-9F57-86C5A88F7DA0}">
+										<Image FileName="-937797079" Left="1250" Top="838" Right="1737" Bottom="861" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[9]/div[contains(@class, &apos;custom-control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelOverweight" Key="{490E43E5-554C-4926-9D10-8E564944E092}">
+										<Image FileName="-1032391849" Left="1284" Top="838" Right="1356" Bottom="860" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[contains(text(), &apos;Overweight&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]//label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]//div[9]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDraft" Key="{0F2E2F84-187F-44FF-A90D-23768971FFD8}">
+										<Image FileName="-1199204508" Left="227" Top="239" Right="282" Bottom="262" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Draft&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOcean" Key="{6659375B-2B89-4E28-B1D4-3D6E65EAAD7C}">
+										<Image FileName="664412523" Left="1003" Top="549" Right="1044" Bottom="567" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Ocean&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;aeab9afa3fb2-1&apos;]/span[contains(@class, &apos;ng-tns-c293-8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;aeab9afa3fb2-1&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/ng-select/ng-dropdown-panel[@role=&apos;listbox&apos;]//div[@id=&apos;aeab9afa3fb2-1&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{E9096521-0387-45D4-852A-CF058D2BB965}">
+										<Image FileName="-144804191" Left="1394" Top="413" Right="1407" Bottom="420" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p-dropdown[@id=&apos;status&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId3List" Key="{517C9D26-7B45-492A-A205-E2BDAFCF8226}">
+										<Image FileName="-42198836" Left="983" Top="436" Right="1419" Bottom="606" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Open&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubQuotationsStatusOpen" Key="{83DAAEB1-AFD6-4545-9F20-9B2772670D8B}">
+										<Image FileName="-42198836" Left="983" Top="436" Right="1419" Bottom="470" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;hub.quotations.status.open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOpen" Key="{D22ECD36-CE52-4FFB-9676-65B8BFA82AD3}">
+										<Image FileName="-42198836" Left="996" Top="443" Right="1406" Bottom="464" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOpen2" Key="{4B6E58FB-6906-46E8-9BC3-56C48C19BC7B}">
+										<Image FileName="260411618" Left="247" Top="585" Right="303" Bottom="607" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Open&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/qwyk-quotation-status-badge/span[contains(@class, &apos;status-badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_1-table&apos;]//qwyk-quotation-status-badge/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuo01413" Key="{79E16BDA-C591-4DE0-A97C-BDFB32151742}">
+										<Image FileName="-1553722218" Left="342" Top="302" Right="478" Bottom="334" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3/span[contains(@class, &apos;text-muted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDetails" Key="{D4240108-FDDB-4F33-999F-1D99CAC78287}">
+										<Image FileName="-230363136" Left="220" Top="408" Right="975" Bottom="711" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-request-details//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeModality" Key="{FF63B7E2-28A8-4753-AE49-2B5A7EC39F10}">
+										<Image FileName="-1553722218" Left="220" Top="445" Right="975" Bottom="489" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Modality&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTruck" Key="{F2690B3B-19A7-4627-93B9-B085993BAA77}">
+										<Image FileName="-1553722218" Left="473" Top="457" Right="971" Bottom="479" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-quotation-request-details//ul/li[2]//div[contains(@class, &apos;col-8&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Truck&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCommodity" Key="{38296951-A8E0-4FE4-B939-38B1CB2EA488}">
+										<Image FileName="437127305" Left="66" Top="667" Right="698" Bottom="711" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Commodity&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAgricultureFruitsAnd" Key="{686E0488-AB49-43AF-AA3F-0496863A977F}">
+										<Image FileName="437127305" Left="278" Top="679" Right="694" Bottom="701" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Agriculture (Fruits and Vegetables)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-request-details//ul/li[7]//div[contains(@class, &apos;col-8&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOrigin" Key="{C64E032F-972C-4471-AA33-88623F26F731}">
+										<Image FileName="558293419" Left="66" Top="490" Right="698" Bottom="534" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Origin&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewOnGoogleMaps" Key="{2183637B-EE59-43C1-A148-4AB8EFF00EFC}">
+										<Image FileName="558293419" Left="293" Top="501" Right="653" Bottom="523" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul/li[3]//a[contains(@class, &apos;text-wrap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//qwyk-quotation-request-details//ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDestination" Key="{70FFC1B7-91A5-4A26-8F8F-6973FF4311F9}">
+										<Image FileName="474416128" Left="66" Top="534" Right="698" Bottom="578" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Destination&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewOnGoogleMaps2" Key="{BCBFB36E-1CDC-4D16-95AE-B24645FECCE6}">
+										<Image FileName="474416128" Left="293" Top="545" Right="653" Bottom="567" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul/li[4]//a[contains(@class, &apos;text-wrap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//qwyk-quotation-request-details//ul/li[4]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{65BA9E3B-FD21-4473-9D02-2A8395D051CA}">
+										<Image FileName="-1431343350" Left="718" Top="507" Right="901" Bottom="562" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[@class=&apos;pt-0&apos; ]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;1 x Carton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//td[contains(text(), &quot;1 x 40&apos; Container Dry&quot;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownloadAPdfOfThisQuotatio" Key="{1500912E-C5E9-451D-B69B-C98EBC8F7CA4}">
+										<Image FileName="-2004786831" Left="1564" Top="243" Right="1679" Bottom="279" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download a PDF of this quotation&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Download&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-header//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCopyQuotation" Key="{678A2D68-266C-414B-93A9-4EBE8375D3E0}">
+										<Image FileName="-1776445383" Left="1535" Top="289" Right="1717" Bottom="319" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Copy quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{8DA9329F-FA11-446C-AA01-03ED8042776E}">
+										<Image FileName="827230286" Left="74" Top="570" Right="1896" Bottom="667" />
+										<TypeInfo Item0="{0CFD3843-678C-4440-AC4A-0A96B9DB7299}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Nothing found&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(@class, &apos;py-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_8-table&apos;]//tbody/tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody/tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDeleteQuotation" Key="{914236F2-72F8-401E-8E7D-2E4071078D58}">
+										<Image FileName="1004748002" Left="1530" Top="320" Right="1717" Bottom="350" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Delete quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;text-danger&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProduct" Key="{7EDF7DC7-587E-400A-BDD5-3381FC0D85B9}">
+										<Image FileName="889488520" Left="534" Top="348" Right="934" Bottom="382" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Product&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[@id=&apos;product&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId2List" Key="{C1386D10-CFA6-482B-B7BF-30AA477AE0E5}">
+										<Image FileName="1589860072" Left="534" Top="384" Right="970" Bottom="554" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pr_id_2_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Air&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubShipmentSearchFilters" Key="{F4AF59D7-AD15-4040-AA75-28775698C703}">
+										<Image FileName="1589860072" Left="534" Top="384" Right="970" Bottom="418" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Air&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAir2" Key="{B48EE8FA-6A1B-4FF9-B83D-4452E760DFC5}">
+										<Image FileName="1589860072" Left="547" Top="391" Right="957" Bottom="412" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Air&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonShowMoreFilters" Key="{C5BC39BE-A33F-4E3D-A889-D00677AD5119}">
+										<Image FileName="-1251545406" Left="1613" Top="402" Right="1734" Bottom="432" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Show more filters&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-list-search-form//form//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-link&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{133A7052-6DD6-49A5-AB78-E232D1C016CE}">
+										<Image FileName="-837246459" Left="1170" Top="438" Right="1185" Bottom="453" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[@id=&apos;offer_count_operator&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId8List" Key="{B0F90935-1259-49C0-AA5F-311C7DFFC3C5}">
+										<Image FileName="-896125458" Left="983" Top="465" Right="1196" Bottom="567" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Equals&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCommonNumberOperatorsGre" Key="{ACE3FD33-C348-41A4-B68D-FDF1B91629CA}">
+										<Image FileName="-896125458" Left="983" Top="499" Right="1196" Bottom="533" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Greater than&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;common.number-operators.greater-than&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGreaterThan" Key="{C1BF0CDF-2A85-444B-A8A9-1A74D0F0FF28}">
+										<Image FileName="-896125458" Left="996" Top="505" Right="1183" Bottom="526" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Greater than&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox7" Key="{11803973-4A43-4D59-B7B3-C20E5BAB4CFD}">
+										<Image FileName="1630058869" Left="1201" Top="428" Right="1420" Bottom="464" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]//p-inputnumber//input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-inputnumber[@id=&apos;offer_count&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]//div[2]/p-inputnumber//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShowLessFilters" Key="{96894C3A-C535-48A9-B21E-45D7DAF2DD52}">
+										<Image FileName="-923122506" Left="70" Top="479" Right="1883" Bottom="515" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;col&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{B67A23CD-4E21-42BF-86D9-0A663D4965BF}">
+										<Image FileName="1516312090" Left="603" Top="590" Right="712" Bottom="661" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Air&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1648445" Key="{BBCFEFE3-16C7-4C8B-B8D7-7DBE464F8D8B}">
+										<Image FileName="1859472647" Left="1306" Top="598" Right="1460" Bottom="619" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//td[@class=&apos;py-3 text-right&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//table[@id=&apos;pr_id_33-table&apos;]//td[5]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//td[5]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDropdownbasic1" Key="{7D718E8F-6A41-4D17-8F3E-104257453217}">
+										<Image FileName="1859472647" Left="1671" Top="591" Right="1715" Bottom="627" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_37-table&apos;]//tr/td[7]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[7]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDropdownbasic12" Key="{763757FC-9E7D-4B4A-ADA4-285F474D47A0}">
+										<Image FileName="-755936969" Left="1550" Top="130" Right="1670" Bottom="166" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdownBasic1" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Sort or filter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/qwyk-activity-feed-card//qwyk-activity-feed-control//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-activity-feed-card//qwyk-activity-feed-control//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit" Key="{69B78617-29B3-4A23-B999-D90070625B1E}">
+										<Image FileName="-755936969" Left="1672" Top="639" Right="1822" Bottom="669" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//button[@class=&apos;dropdown-item&apos; and normalize-space()=&apos;Edit&apos;])[last()]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=&apos;ngb-tooltip-208&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell4" Key="{24A0E803-1078-4021-AC57-44F8AA1520EB}">
+										<Image FileName="-861152059" Left="293" Top="290" Right="443" Bottom="367" />
+										<TypeInfo Item0="{0CFD3843-678C-4440-AC4A-0A96B9DB7299}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[78]/tr/td[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell5" Key="{21F903C4-0626-4537-908D-957C5B583825}">
+										<Image FileName="-861152059" Left="443" Top="290" Right="904" Bottom="330" />
+										<TypeInfo Item0="{0CFD3843-678C-4440-AC4A-0A96B9DB7299}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;20-Foot Container Premium&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkQuotations" Key="{4EEDE477-736B-45C0-AD19-029094F91FF7}">
+										<Image FileName="-1883377386" Left="271" Top="165" Right="339" Bottom="180" />
+										<TypeInfo Item0="{9B78BE31-D683-44B4-B802-095BE0754294}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-header/qwyk-breadcrumbs//a[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCarrier" Key="{BFD2D022-0F92-420A-8DE2-CA2D96C41827}">
+										<Image FileName="1500626931" Left="239" Top="-6069" Right="1713" Bottom="974" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddACharge" Key="{7296A9B3-7443-4197-8401-B277E85F7CB9}">
+										<Image FileName="1500626931" Left="253" Top="275" Right="390" Bottom="311" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Add a charge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tfoot/tr/td/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_43-table&apos;]//tfoot/tr/td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tfoot/tr/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{0E392457-889B-4962-8491-3E1CCF128BA1}">
+										<Image FileName="-464737578" Left="395" Top="313" Right="410" Bottom="328" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[2]/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_43-table&apos;]//tr/td[2]/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId45List" Key="{DBAB6550-4269-4218-AE1F-1BD414CC8AF9}">
+										<Image FileName="348720915" Left="299" Top="340" Right="420" Bottom="510" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Pickup&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubQuotationsDetailsOffe" Key="{A562093A-861D-4CFD-969A-92509E230C66}">
+										<Image FileName="348720915" Left="299" Top="442" Right="420" Bottom="476" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;hub.quotations.details.offer.segments.destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[4]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{823242F6-C2DE-4211-B7EA-23CD7089CD12}">
+										<Image FileName="1374775657" Left="790" Top="286" Right="805" Bottom="301" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[3]/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_43-table&apos;]//tr/td[3]/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[3]/p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId46List" Key="{44A0E91B-44CB-41B7-B032-2E7AEB695835}">
+										<Image FileName="1991122867" Left="449" Top="363" Right="798" Bottom="7476" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;20-Foot Container Premium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode20FootContainerPremium" Key="{1286569D-1B4D-40AC-8C56-D1453A123D15}">
+										<Image FileName="1991122867" Left="449" Top="363" Right="798" Bottom="397" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;20-Foot Container Premium&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDropdownTrigger" Key="{D244397C-3D3D-416D-88C2-60D037892202}">
+										<Image FileName="1890533571" Left="913" Top="277" Right="949" Bottom="311" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[4]/p-dropdown//div[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[4]/p-dropdown//div[contains(@class, &apos;p-dropdown-trigger&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox8" Key="{58C05370-396E-4094-8FCD-6C5669098CAB}">
+										<Image FileName="364105142" Left="858" Top="319" Right="1108" Bottom="355" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;p-dropdown-filter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId47List" Key="{C06A0319-A5BE-4874-9915-DEBAE2EBBB52}">
+										<Image FileName="-830030677" Left="845" Top="363" Right="1039" Bottom="397" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd" Key="{FD8D6CE7-F8E2-42A2-B8DC-06A64A9A0187}">
+										<Image FileName="-830030677" Left="845" Top="363" Right="1039" Bottom="397" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;USD&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;pr_id_47_list&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUnitedStatesDollar" Key="{D4E27BAD-E953-4366-AFBB-8900174016B1}">
+										<Image FileName="-830030677" Left="858" Top="369" Right="1026" Bottom="390" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[2]/ul//div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;pr_id_47_list&apos;]//div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCalculation" Key="{74F83320-1576-4B80-9827-A0F9B9D42730}">
+										<Image FileName="1937733978" Left="970" Top="290" Right="1103" Bottom="324" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Calculation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[5]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_43-table&apos;]//div[78]/tr/td[5]/p-dropdown//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[5]/p-dropdown/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId48List" Key="{E511A9B5-3254-43DF-BD41-C59F1DFFA009}">
+										<Image FileName="361585598" Left="970" Top="376" Right="1196" Bottom="1369" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;100LBS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode40" Key="{EB635D48-509A-4EF3-8473-608F6D86460E}">
+										<Image FileName="361585598" Left="970" Top="463" Right="1196" Bottom="515" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;40&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;40&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel40" Key="{41779B1B-E844-4282-ADF7-EFEE981C1408}">
+										<Image FileName="361585598" Left="983" Top="469" Right="1183" Bottom="490" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;40&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox9" Key="{7E19F87E-3B8D-48B2-A194-640686293774}">
+										<Image FileName="-259084879" Left="1167" Top="276" Right="1255" Bottom="312" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[6]/p-inputnumber//input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_43-table&apos;]//tr/td[6]/p-inputnumber//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[6]/p-inputnumber//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox10" Key="{20A3DD07-6C63-4882-87AA-A79428D3F476}">
+										<Image FileName="-1709261905" Left="1397" Top="305" Right="1485" Bottom="341" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td[8]/p-inputnumber//input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_43-table&apos;]//tr/td[8]/p-inputnumber//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[8]/p-inputnumber//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{DA21797B-FC59-459F-9D6B-3C118C1A14E6}">
+										<Image FileName="1870060358" Left="1627" Top="347" Right="1663" Bottom="383" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[@icon=&apos;pi pi-check&apos;] " />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[contains(@class, &apos;p-button-success&apos;) and contains(@class, &apos;p-button-icon-only&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Save&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[78]/tr/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveOffer" Key="{D4F3D9B7-76D1-44EB-BA15-4A81190D7892}">
+										<Image FileName="-1016384971" Left="239" Top="1016" Right="334" Bottom="1052" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Save Offer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-offer-view//qwyk-quotations-offer-form/form//button[contains(@class, &apos;btn-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel16484452" Key="{6A62141D-FCB7-4563-ADC2-F49531EBC1D6}">
+										<Image FileName="1916675102" Left="1306" Top="417" Right="1460" Bottom="438" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//tfoot/tr/td[contains(@class, &apos;font-weight-bold&apos;)])[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell6" Key="{A9F33488-3F6E-4BCE-BEF5-6B0570505D8C}">
+										<Image FileName="675162225" Left="402" Top="618" Right="853" Bottom="642" />
+										<TypeInfo Item0="{0CFD3843-678C-4440-AC4A-0A96B9DB7299}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;20-Foot Container Premium&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit2" Key="{F06FA9E4-9930-4FD6-92C7-50F5A93C8959}">
+										<Image FileName="1970307346" Left="1672" Top="458" Right="1822" Bottom="488" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//button[@icon=&apos;pi pi-pencil&apos;])[last()]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[70]/tr/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit3" Key="{F013ED4A-1439-49B9-870F-FE1E5EC7B2B6}">
+										<Image FileName="-1323333753" Left="1627" Top="220" Right="1663" Bottom="256" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Edit&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[78]/tr/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId58List" Key="{61FACDC9-A8DF-4EDA-AB02-1C6F2638092C}">
+										<Image FileName="-480852388" Left="299" Top="273" Right="420" Bottom="443" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Pickup&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubQuotationsDetailsOffe2" Key="{33BF2F6C-4F5D-4DA7-908D-207527F20D4C}">
+										<Image FileName="-480852388" Left="299" Top="307" Right="420" Bottom="341" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Origin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;hub.quotations.details.offer.segments.origin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{1A6FB323-B24B-4BC1-A604-E3BD64D28CCD}">
+										<Image FileName="489157614" Left="233" Top="736" Right="267" Bottom="766" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_63-table&apos;]//tr/td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId40Label" Key="{9103053E-2AD7-4E53-8077-50CBCC871375}">
+										<Image FileName="-988490796" Left="449" Top="291" Right="845" Bottom="325" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;20-Foot Container Premium&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_33-table&apos;]//div[79]/tr/td[3]/p-dropdown//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[3]/p-dropdown/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId40List" Key="{207C581E-EFA4-486E-A645-95EA2A48D66F}">
+										<Image FileName="-1173763446" Left="449" Top="377" Right="864" Bottom="7490" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;20-Foot Container Premium&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAdenPiracySurcharge" Key="{A54748CC-40B2-4E34-B3A9-978E08BEB90B}">
+										<Image FileName="-1173763446" Left="449" Top="411" Right="864" Bottom="445" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Aden Piracy Surcharge&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAdenPiracySurcharge2" Key="{1AA8CF96-337B-438C-8029-332DD88DEF4C}">
+										<Image FileName="-1173763446" Left="462" Top="419" Right="603" Bottom="436" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Aden Piracy Surcharge&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrId39Label" Key="{323838A1-D6ED-4D2B-B26A-4B643FB65DD1}">
+										<Image FileName="-1589846447" Left="299" Top="318" Right="384" Bottom="352" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[2]/p-dropdown//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_33-table&apos;]//div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/p-dropdown/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell7" Key="{33FD167C-2EDA-4858-9ED8-39A534328D39}">
+										<Image FileName="631945768" Left="443" Top="288" Right="904" Bottom="328" />
+										<TypeInfo Item0="{0CFD3843-678C-4440-AC4A-0A96B9DB7299}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Aden Piracy Surcharge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//li[@aria-label=&apos;Aden Piracy Surcharge&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDelete" Key="{93657F8A-C54D-4D51-89BD-3C2604D8CF50}">
+										<Image FileName="-472633188" Left="1662" Top="301" Right="1698" Bottom="337" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//button[span[contains(@class, &apos;pi-trash&apos;)]])[last()]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Delete&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox11" Key="{17B5C027-1AA3-426B-9851-56DA97113A00}">
+										<Image FileName="-239305035" Left="1167" Top="757" Right="1255" Bottom="793" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/p-inputnumber//input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_16-table&apos;]//tr[2]/td[2]/p-inputnumber//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/p-inputnumber//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox12" Key="{1B78DE63-FC7D-4706-BD42-8F672A69E09B}">
+										<Image FileName="-1372714414" Left="1397" Top="757" Right="1485" Bottom="793" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td[4]/p-inputnumber//input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_16-table&apos;]//tr[2]/td[4]/p-inputnumber//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[4]/p-inputnumber//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubShipmentSearchFilters2" Key="{62F96E52-9A3D-44B9-90FB-A26CC9761977}">
+										<Image FileName="532843721" Left="534" Top="486" Right="970" Bottom="520" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Ocean LCL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOceanLcl" Key="{0FBDF04F-7040-42F2-9E8D-59E475CD01AB}">
+										<Image FileName="532843721" Left="547" Top="493" Right="957" Bottom="514" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Ocean LCL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCreateNewOffer" Key="{1EC30CCD-6893-4E13-B08D-57577D8846E3}">
+										<Image FileName="-430113398" Left="237" Top="883" Right="393" Bottom="919" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Create new offer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/tr/td/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pr_id_26&apos;]//div/tr/td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/tr/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCarrier" Key="{FE9DE3D8-8F3C-489A-94A3-F660F3B0C4D3}">
+										<Image FileName="286060099" Left="240" Top="789" Right="687" Bottom="823" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Carrier&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div//p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[@id=&apos;carrier&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKLine" Key="{B9010CA2-5C00-4F0F-B17E-AA2F26DF35FD}">
+										<Image FileName="-2124330822" Left="241" Top="588" Right="707" Bottom="640" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &quot;&apos;K&apos; Line&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[@id=&apos;carrier&apos;]//p-dropdownitem/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelKLine" Key="{7BAFA8B0-2E38-41E2-95DD-C550CACF0784}">
+										<Image FileName="-2124330822" Left="254" Top="595" Right="694" Bottom="616" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&quot;&apos;K&apos; Line&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxRateId" Key="{E13BA979-DEE4-462F-AD82-761C1580F473}">
+										<Image FileName="-785795834" Left="734" Top="788" Right="1219" Bottom="824" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Rate ID&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#rate_name" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-offer-form/form/div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaQuotationRemarks" Key="{804904EA-2624-4AE4-9F49-0B1193721173}">
+										<Image FileName="-874623598" Left="239" Top="839" Right="1713" Bottom="957" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@id=(//label[.=&apos;Quotation Remarks&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#remarks" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddACharge2" Key="{EC46756D-FBDA-4F70-ACD0-39295DEEF983}">
+										<Image FileName="1561797715" Left="253" Top="646" Right="390" Bottom="682" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tfoot/tr/td/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tfoot/tr/td/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_32-table&apos;]//tfoot/tr/td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//tfoot/tr/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubQuotationsDetailsOffe3" Key="{5000B61D-F33B-46A2-BCB3-19183E4CDBF5}">
+										<Image FileName="-1234333986" Left="299" Top="614" Right="420" Bottom="648" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Pickup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;hub.quotations.details.offer.segments.pickup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCharge" Key="{E35D6249-D0C2-42C8-A44E-16A7873E48A0}">
+										<Image FileName="-905361084" Left="449" Top="551" Right="647" Bottom="585" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;charge&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_32-table&apos;]//tr/td[3]/p-dropdown//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody//tr/td[3]/p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCurrency" Key="{FAE01862-3F7D-4397-BD94-DEC0882981A8}">
+										<Image FileName="706529397" Left="817" Top="551" Right="885" Bottom="585" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Currency&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[4]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_32-table&apos;]//tr/td[4]/p-dropdown//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tbody//tr/td[4]/p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCurrency2" Key="{CACCBEF2-A03F-4B98-B89A-D6455BA40DA5}">
+										<Image FileName="342061748" Left="239" Top="338" Right="724" Bottom="356" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currency" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[.=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/p-dropdown[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/p-dropdown" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxValidUntil" Key="{FDAA0A82-CEE0-40DE-8C44-038327F3CF13}">
+										<Image FileName="-1849913284" Left="1266" Top="405" Right="1714" Bottom="441" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Valid until*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#valid_until" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSelectYear" Key="{A2279ADE-AC23-48CE-8893-4DA3A65E4FD7}">
+										<Image FileName="-1431031159" Left="1375" Top="449" Right="1449" Bottom="477" />
+										<TypeInfo Item0="{E916E2B0-CD04-4694-9C8E-9C234E238D8C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@title=&apos;Select year&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel31" Key="{AE924032-40A7-4D83-AAE2-3FB1F475A31A}">
+										<Image FileName="-561199208" Left="1331" Top="630" Right="1361" Bottom="660" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;31&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div[3]/div[contains(@class, &apos;btn-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNow" Key="{935EB701-CB28-4FCF-ABE0-A126AF7B485D}">
+										<Image FileName="-168435263" Left="293" Top="220" Right="664" Bottom="241" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[h6[text()=&quot;&apos;K&apos; Line&quot;]]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKLine2" Key="{0C12820D-64B6-421D-BCA2-42B4B8072ACA}">
+										<Image FileName="1833047404" Left="293" Top="202" Right="664" Bottom="220" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&quot;&apos;K&apos; Line&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/h6[contains(@class, &apos;m-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_72-table&apos;]//tr/td/h6" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload" Key="{EDC85E74-DAEE-4411-A206-40C8E1CBA9DC}">
+										<Image FileName="963327000" Left="1774" Top="876" Right="1874" Bottom="906" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Download&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_1-table&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="paginator" Key="{3528FD48-CF32-4A06-B568-32617D770902}">
+										<Image FileName="838498504" Left="65" Top="955" Right="1888" Bottom="994" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@id=&apos;pr_id_5_label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeStatus" Key="{908337A4-96D6-49EA-9846-971EFFBC3DA1}">
+										<Image FileName="-332315620" Left="983" Top="382" Right="1383" Bottom="416" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Status&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[@id=&apos;status&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]/p-dropdown//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRequests" Key="{D656CEFB-8E26-4F08-AB4C-777659445C1E}">
+										<Image FileName="-1803589536" Left="338" Top="735" Right="447" Bottom="774" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Requests&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOffers" Key="{5879B10B-01AA-4D52-A992-A0D931EFE8A6}">
+										<Image FileName="-1597786369" Left="219" Top="852" Right="336" Bottom="891" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Offers&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubQuotationsStatusReque" Key="{4F8E960A-B40A-4C3C-B77D-22C10F83E6F0}">
+										<Image FileName="1986240007" Left="983" Top="486" Right="1419" Bottom="520" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Request&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;hub.quotations.status.request&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRequest" Key="{DA09037C-375E-47F9-9167-E91F63309932}">
+										<Image FileName="1986240007" Left="996" Top="493" Right="1406" Bottom="514" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Request&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClosed" Key="{9229491B-3ED3-4638-92E9-6697CBEB0A37}">
+										<Image FileName="-1283394045" Left="241" Top="1032" Right="290" Bottom="1051" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td/span[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_8-table&apos;]//td/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRequest" Key="{B148E89C-2007-4037-A391-6DF005EAACD7}">
+										<Image FileName="2018681372" Left="202" Top="567" Right="276" Bottom="589" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Request&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/qwyk-quotation-status-badge/span[contains(@class, &apos;status-badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_1-table&apos;]//qwyk-quotation-status-badge/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCloseWithoutOffer" Key="{CA9C75CE-6B84-4DB6-A68E-ADAB433F5100}">
+										<Image FileName="885540104" Left="1669" Top="914" Right="1720" Bottom="944" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Close without offer&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textarea" Key="{7B124EFA-0CBD-4127-8559-025BB5A87406}">
+										<Image FileName="-813163692" Left="733" Top="547" Right="1187" Bottom="629" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaQa" Key="{4D1AC534-BF91-46B4-AFBB-49DB10912CC6}">
+								<Image FileName="-1430348178" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-qa.qwykportals.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navDashboard" Key="{EDCC7BBD-8689-4379-B45F-5080081929CB}">
+										<Image FileName="-111628418" Left="0" Top="121" Right="1920" Bottom="200" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Dashboard&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;qwyk-navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-navigation-bar/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{19A394D8-376A-40FA-B020-B030E1A91AA5}">
+										<Image FileName="-111628418" Left="1319" Top="139" Right="1545" Bottom="181" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;mt-3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn2" Key="{FD4BF904-73C0-4138-BB01-2AF0605E6252}">
+										<Image FileName="-111628418" Left="1363" Top="139" Right="1445" Bottom="181" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;mr-lg-2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{34459706-1EB6-49D7-BE22-0F0CF77C2904}">
+										<Image FileName="-111628418" Left="1363" Top="139" Right="1445" Bottom="181" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSignInToYourAccount" Key="{B4CD0D8A-0F99-4220-9169-C06A07A131FB}">
+										<Image FileName="164574979" Left="1008" Top="428" Right="1482" Bottom="732" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in to your account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;pt-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{60C3F484-E7D1-4824-A6B4-38FC19A1C2E0}">
+										<Image FileName="164574979" Left="1008" Top="502" Right="1482" Bottom="544" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address *&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{6CC9A14F-C54A-4D36-944C-0AD48236D736}">
+										<Image FileName="740903807" Left="1008" Top="590" Right="1482" Bottom="632" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{181862A8-A128-4240-BE04-8B572EB0982B}">
+										<Image FileName="1470351738" Left="1008" Top="648" Right="1482" Bottom="686" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMyPortal" Key="{5812745D-20A6-4738-8443-3E0FCFFB9DE2}">
+										<Image FileName="-1124973735" Left="228" Top="129" Right="1911" Bottom="1092" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;My Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNumber" Key="{24D95937-AEAE-404C-93B6-C5F84E70FE7C}">
+										<Image FileName="-1124973735" Left="485" Top="392" Right="1655" Bottom="504" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Number&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-index-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuo01392" Key="{B6642067-6436-4AB7-879A-589D67D55131}">
+										<Image FileName="-1124973735" Left="485" Top="432" Right="1655" Bottom="505" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;QUO-01392&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item-action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreated" Key="{2852A3CB-03B2-4C67-B920-A62B2D545ED7}">
+										<Image FileName="-1124973735" Left="650" Top="456" Right="739" Bottom="480" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Created&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1To1Of" Key="{CEC30165-A265-4318-BC0F-364964607A7F}">
+										<Image FileName="-1666330497" Left="1212" Top="517" Right="1389" Bottom="532" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;1 to 1 of&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-index-page//qwyk-pagination/p-paginator//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotations" Key="{058EBED1-A67E-4041-BF21-2E12ABBA8C00}">
+										<Image FileName="1228336551" Left="0" Top="211" Right="219" Bottom="257" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Create Quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkQuotations" Key="{2CC3AD7A-AC4B-4E88-B316-DA4D9CE3BE28}">
+										<Image FileName="1228336551" Left="0" Top="211" Right="219" Bottom="257" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Quotations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//nav/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotations2" Key="{8ABCA924-D784-496E-91D1-9C54DBC23D38}">
+										<Image FileName="1228336551" Left="48" Top="223" Right="118" Bottom="245" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Quotations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;quotations&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formStatus" Key="{144E9521-7223-4DE8-A10F-DAB35425B7FB}">
+										<Image FileName="-1933390243" Left="477" Top="277" Right="1647" Bottom="368" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Status&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFriendlyId" Key="{18C557A0-A498-474A-9063-714AA5C0CBFD}">
+										<Image FileName="-1933390243" Left="477" Top="277" Right="762" Bottom="314" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#friendly_id" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;friendly_id&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;p-inputtext&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{CC096377-FD9B-469C-B1E8-422436AF5E30}">
+										<Image FileName="-1049213253" Left="1497" Top="330" Right="1572" Bottom="368" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-secondary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSummary" Key="{25C400EB-342A-4E06-B308-D0534FE0F504}">
+										<Image FileName="1857478054" Left="477" Top="328" Right="1647" Bottom="373" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Summary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOffers" Key="{F2C3F6B3-0CBC-47DB-8F92-2A981F9D5A23}">
+										<Image FileName="1857478054" Left="591" Top="332" Right="686" Bottom="372" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Offers&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="offersPortal" Key="{6025C55C-A26E-44AD-AC88-E34B7E6DF9A7}">
+										<Image FileName="1026684115" Left="538" Top="345" Right="593" Bottom="367" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;text-muted&apos;) and .//span[normalize-space(text())=&apos;results&apos;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-result//div//span[contains(@class, &apos;text-muted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerTopnavbar" Key="{D524C3EB-603B-432D-B57D-D8EEC393FA85}">
+										<Image FileName="867475156" Left="0" Top="121" Right="1903" Bottom="165" />
+										<Selectors>
+											<Selector>
+												<Value Value="#topNavbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{CDE09F84-00AB-4FD0-861A-AB99CFB88307}">
+										<Image FileName="867475156" Left="1779" Top="121" Right="1887" Bottom="165" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;topNavbar&apos;]//div[2]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode52" Key="{5BEF222E-9EF7-472E-B22C-40783047F76B}">
+										<Image FileName="867475156" Left="1779" Top="121" Right="1822" Bottom="165" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button5" Key="{0005A667-56EC-47ED-92CD-7494130A787D}">
+										<Image FileName="867475156" Left="1782" Top="131" Right="1818" Bottom="155" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/ul/li/button[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;topNavbar&apos;]//div[2]/ul/li/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{BF655C5F-BA90-43F7-B922-CF2BDB6CE7EA}">
+										<Image FileName="1483852989" Left="478" Top="273" Right="1646" Bottom="895" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;📪 You received a new quotation | QUO-01392 | Magaya QA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qw-root/qw-portal-index/div/section/qwyk-notifications//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="firstNotification" Key="{107EFE08-F9B8-4796-BAA0-6BE5A66115EE}">
+										<Image FileName="1483852989" Left="545" Top="313" Right="1597" Bottom="335" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;text-dark&apos;) and contains(@class, &apos;overflow-hidden&apos;) and contains(@class, &apos;text-nowrap&apos;) and contains(@class, &apos;text-truncate&apos;)])[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuotation" Key="{2B26E544-A78D-43D5-8DAF-0A4175518BD0}">
+										<Image FileName="1402571585" Left="498" Top="335" Right="1626" Bottom="461" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;card-body&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notification-detail/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDecember62024600Pm" Key="{8F64F38E-6035-4CDA-979C-4DCF1BE65513}">
+										<Image FileName="-735919006" Left="545" Top="314" Right="686" Bottom="332" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[@aria-describedby=(//ngb-tooltip-window[.=&apos;December 6, 2024 6:00 PM&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Received an hour ago&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/qwyk-notification//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfp" Key="{7B967548-550D-4645-89FE-396E1468E43D}">
+										<Image FileName="2132900354" Left="1409" Top="158" Right="1522" Bottom="177" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;AutomationDFP&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfp2" Key="{2C176B38-3AA2-4049-A2E7-A7F1D70DA981}">
+										<Image FileName="633876445" Left="1384" Top="139" Right="1545" Bottom="181" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;AutomationDFP&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfp3" Key="{EC95A629-5F38-41B6-A0A9-A8363F298422}">
+										<Image FileName="633876445" Left="1317" Top="191" Right="1543" Bottom="394" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-popover-window[@id=&apos;ngb-popover-0&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-popover-window/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignOut" Key="{F6CE8B27-14BC-4255-82C7-E9E70D9E2EC5}">
+										<Image FileName="633876445" Left="1317" Top="349" Right="1543" Bottom="394" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign out&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoQuotationsFound" Key="{34830537-8185-4532-A652-BF8F3CDFC6D6}">
+										<Image FileName="-1156516654" Left="485" Top="432" Right="1655" Bottom="535" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;No Quotations found&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;text-center&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoQuotationsFound2" Key="{FFE0C7B0-CFC7-44BB-9534-CB7416B740C7}">
+										<Image FileName="-1156516654" Left="506" Top="456" Right="1634" Bottom="480" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[.=&apos;No Quotations found&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoQuotationsFound3" Key="{D7D226B0-2306-4477-96ED-1F29A125F86D}">
+										<Image FileName="-2079177988" Left="485" Top="450" Right="1655" Bottom="553" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;No Quotations found&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;text-center&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageInbox265Rmsautomation24Gmail" Key="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
+								<Image FileName="1122271165" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/mail/u/0/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{2AA56725-ADA1-4324-BCDB-3EFC8EF2BA47}">
+										<Image FileName="1122271165" Left="532" Top="300" Right="932" Bottom="318" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[@role=&apos;main&apos;]//tr/td[5]//span[contains(@class, &apos;bqe&apos;)])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//td[@class=&apos;yX xY &apos; and @role=&apos;gridcell&apos;]//div[contains(text(), &apos;You received a new quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//tr/td[5]//span[contains(@class, &apos;bqe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{A45CAA84-57BE-4E67-ADFF-B9F279B71FA0}">
+										<Image FileName="-1244049334" Left="328" Top="253" Right="923" Bottom="280" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h2[contains(text(), &apos;You received a new quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;hP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuo01410" Key="{7C57A223-72CB-41C8-86F5-579830E4CADA}">
+										<Image FileName="-1244049334" Left="892" Top="582" Right="964" Bottom="599" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[@style and strong[contains(text(), &apos;QUO&apos;)]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{526EA980-854C-48E1-AEB4-CB4F000C874C}">
+			<Child Name="BrowserWindow" Owner="{C257074E-B38B-46C6-958B-5A0A910742DB}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{A44BF2AF-1C93-4EF2-B248-41EA51C287A4}">
+				<Child Name="headerHubheader" Owner="{6F7D6F05-51D0-4E1E-9952-A4048CA34618}">
+					<Child Name="textnodeHubnavbar" Owner="{A7B118AD-0EF7-4AAC-A4EF-C02590126D19}">
+						<Child Name="textnodeHubnavbarprofileitem" Owner="{B052660F-FBFC-42B1-A641-48C8EB25DDD2}">
+							<Child Name="buttonHubnavbarprofileitembutton" Owner="{B5C5E70F-B6EA-45C4-883E-C86CC9C369EB}" />
+							<Child Name="buttonHubnavbarlogoutlistbutton" Owner="{8AD525D5-8FEF-424C-BE26-918A839D5D54}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="navQuotations" Owner="{13AE7D1F-3396-4015-9EA8-C8E1F82ECA7C}">
+					<Child Name="textnodeQuotations" Owner="{8362E1A2-F00D-4C76-9820-89B88717C5A3}">
+						<Child Name="linkQuotations" Owner="{458266D8-02F0-4F4B-A470-2B7757DC2888}">
+							<Child Name="vgImg" Owner="{78397A19-DF9B-492B-A336-245561714232}" />
+						</Child>
+						<Child Name="textnodeQuotations2" Owner="{D7E381D3-DA5D-4398-8EFD-BC331EF1ABBA}">
+							<Child Name="linkQuotations2" Owner="{196999FF-00C4-4C43-A2EA-CD82C1056BA4}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLogInMagayaDfp" Owner="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
+				<Child Name="sectionWelcome" Owner="{3922FC38-4A33-4443-917A-984773C640B1}">
+					<Child Name="formEmailAddress" Owner="{F283179D-0A2E-4509-B5B7-61917EC17846}">
+						<Child Name="textboxEmailAddress" Owner="{1629A23F-44C9-48D6-92FB-42AA141055CB}" />
+						<Child Name="passwordboxPassword" Owner="{CC236B34-B9C8-4715-BE84-ED532A2A9C68}" />
+						<Child Name="buttonAction" Owner="{4BFB26B0-4A85-47B3-B471-D47C8324C591}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageQuotationsMagayaDigitalFreig" Owner="{A5FE98F8-80D1-4E5E-AD95-177FF3539C60}">
+				<Child Name="sectionQwyk" Owner="{EA83B009-B19F-4CBA-AD3B-1F6A07E851EA}">
+					<Child Name="buttonCreateQuotation" Owner="{85A8AB95-1165-45E4-A40B-D0F1F340DC35}" />
+					<Child Name="formRequest" Owner="{A6D68D58-2820-453D-BE9D-2D0128C90602}">
+						<Child Name="textbox" Owner="{7254A223-8CF5-4D5E-AFF5-1C2701BF6E84}" />
+						<Child Name="textnodeAutomationdfp24GmailCom" Owner="{C82FB8A1-930E-4E91-9E29-958C3F3E2100}" />
+						<Child Name="textbox2" Owner="{C0FCAADD-5D44-4050-B0CA-851F5390AF40}" />
+						<Child Name="textnodeFullLoad" Owner="{0091D7CE-62D2-4CFC-A2AD-BC73B291A72F}" />
+						<Child Name="textbox3" Owner="{4BD35182-084A-4E17-859C-0F52BB575B0B}" />
+						<Child Name="ocean" Owner="{78C01B50-E9FB-420E-9371-B52E5F126D5E}" />
+						<Child Name="panelControlbutton" Owner="{E49D1577-D409-4F09-B21C-470E03C062EE}" />
+						<Child Name="panelControlbutton2" Owner="{C754547F-0682-447A-94EA-471B4A5E9826}" />
+						<Child Name="buttonContinue" Owner="{BA11F24C-01B2-4076-8DFC-446422664F54}" />
+						<Child Name="textbox4" Owner="{B9E808CF-70BA-4C90-8459-D6241EA44468}" />
+						<Child Name="textnodeAgricultureFruitsAnd" Owner="{4BC52759-7B79-4A7C-A3C7-C0E30B87EA1B}" />
+						<Child Name="textbox5" Owner="{5171B221-06E1-4F93-A15D-351700363B14}" />
+						<Child Name="panelUSD" Owner="{C59DEB86-418B-417C-BAFF-1BAD73220025}" />
+						<Child Name="textbox6" Owner="{5CB4C59D-69D5-4DFD-9B12-F8C147BC573F}" />
+						<Child Name="textnode40Container" Owner="{533A2F20-8EB3-45B4-A363-EA4BC5EEDC46}" />
+						<Child Name="labelRequireOriginCharges" Owner="{FBF9ACEA-39A7-4F0F-A6A0-013469FADAE3}" />
+						<Child Name="labelRequireDestinationCharges" Owner="{2324FA65-3AFE-4B6E-BC8E-8751417E3F41}" />
+						<Child Name="labelOriginCustomsClearance" Owner="{BA5D1C5B-588E-45AE-BE25-C4D13F837EC0}" />
+						<Child Name="labelDestinationCustomsClearance" Owner="{2F3FB5FE-C39C-4DEC-9549-B113E56D201D}" />
+						<Child Name="buttonCreateQuotation" Owner="{A99168A9-9A9E-49FD-9918-F6DD5677F9F6}" />
+						<Child Name="panelFullLoad" Owner="{5B01425B-8E6B-4AE1-A9D0-BB370D1D4814}" />
+						<Child Name="textnodeTruck" Owner="{3A8FBFAA-420E-494D-A7F6-447093295031}" />
+						<Child Name="textnodePartialLoad" Owner="{7CFBB24A-861C-4C74-817D-C2A16D578710}" />
+						<Child Name="panelAir" Owner="{75F639B7-C207-490A-B7D4-BC5A4A811EE6}" />
+						<Child Name="panelCarton" Owner="{0AC6683A-DE9D-47D9-8DF7-B96759403F78}" />
+						<Child Name="numberinput" Owner="{38E63525-E6EE-4BDA-B152-9F1455686DEE}" />
+						<Child Name="numberinput2" Owner="{2B46A5BB-DAF0-4280-BCA0-8C19A6F933F5}" />
+						<Child Name="numberinput3" Owner="{009DB129-3A88-4534-BFCA-8EB5F6292BB1}" />
+						<Child Name="numberinput4" Owner="{F19E6337-AF98-447E-A0B0-40D38335DC4B}" />
+						<Child Name="labelHazardousCargo" Owner="{C7C1161A-D649-49C1-BD92-A5F87CD340C3}" />
+						<Child Name="labelRefrigerated" Owner="{96DE3A05-D496-47B6-AB72-F0259FF3F143}" />
+						<Child Name="panelOverweight" Owner="{909BDFBA-0DB3-4E77-9F57-86C5A88F7DA0}" />
+						<Child Name="labelOverweight" Owner="{490E43E5-554C-4926-9D10-8E564944E092}" />
+						<Child Name="textnodeOcean" Owner="{6659375B-2B89-4E28-B1D4-3D6E65EAAD7C}" />
+						<Child Name="textnodeRmsautomation24GmailCom" Owner="{E21A31E4-A547-45A3-9486-64B43FDD1DF6}" />
+						<Child Name="cell4" Owner="{24A0E803-1078-4021-AC57-44F8AA1520EB}" />
+						<Child Name="cell5" Owner="{21F903C4-0626-4537-908D-957C5B583825}" />
+						<Child Name="chargeName" Owner="{33FD167C-2EDA-4858-9ED8-39A534328D39}" />
+					</Child>
+					<Child Name="cell2" Owner="{8DA9329F-FA11-446C-AA01-03ED8042776E}" />
+				</Child>
+			</Child>
+			<Child Name="pageNewQuotationMagayaDigitalFre" Owner="{CDC5B114-3DE6-4643-9151-1C779D69E2F5}">
+				<Child Name="searchbox" Owner="{4FD583A4-FDEE-406C-BD09-0E825BD15C52}" />
+				<Child Name="firstLocation" Owner="{0131BE4D-12E4-44F2-9F6F-0F61C5C4369E}">
+					<Child Name="linkLosAngelesCa" Owner="{F4FA5D15-914C-49DC-9B3D-2D54C2AAB0F6}">
+						<Child Name="textnodeLosAngelesCa2" Owner="{123F951C-F71B-4A3C-A57D-9246D736BB9C}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeShanghaiPt" Owner="{4D68387C-2675-4700-9CF6-F91C702FDEAB}">
+					<Child Name="linkShanghaiPt" Owner="{9483E785-8965-41EC-B555-80429BFE7C01}">
+						<Child Name="textnodeCnshg" Owner="{D0D666FE-B612-430C-BBCB-6479B193F2A1}" />
+					</Child>
+				</Child>
+				<Child Name="sectionQwyk" Owner="{93BAB2F2-B7B8-438A-8BE7-71C9DCB11101}">
+					<Child Name="textnodeOpen" Owner="{4238FFFD-F5A7-439E-8DB7-8871F2202B82}" />
+					<Child Name="panelQuotationCreatedByAylin" Owner="{243AC75B-0318-41C6-8188-28676E7B0F71}" />
+					<Child Name="panelQuotationCreatedByAylin2" Owner="{BC6C999A-9AF6-42E6-8DA1-5FB06F8A2B03}" />
+					<Child Name="panel" Owner="{6AA2FD27-7FDB-48F2-8D61-9881911A03E5}" />
+					<Child Name="panel2" Owner="{F492F58E-A24B-48D3-88AC-811306CBD8EF}" />
+					<Child Name="textnodeQuotation" Owner="{A1418374-B338-4A8E-8440-7C56FDD5FB6E}">
+						<Child Name="quoteId" Owner="{42E5A1BC-B2A4-4E72-97C1-80D81B61EAD3}" />
+						<Child Name="textnodeQuo01413" Owner="{79E16BDA-C591-4DE0-A97C-BDFB32151742}" />
+					</Child>
+					<Child Name="buttonPublishingTheQuotationMake" Owner="{71D27871-00B9-4A84-A869-E5EBDFFDE4E4}" />
+					<Child Name="navOffers" Owner="{0F67901D-8D34-4B73-89E3-7839E11E34D1}">
+						<Child Name="offersHub" Owner="{9356101B-6310-4773-9566-7A0A82D0532F}" />
+						<Child Name="linkRequests" Owner="{D656CEFB-8E26-4F08-AB4C-777659445C1E}" />
+						<Child Name="linkOffers" Owner="{5879B10B-01AA-4D52-A992-A0D931EFE8A6}" />
+					</Child>
+					<Child Name="textnodeClosed" Owner="{A771473D-2568-43CD-A988-C64E3681962C}" />
+					<Child Name="formSystemId" Owner="{97D2968B-1C65-4F61-9E03-C23C8E4FA22A}">
+						<Child Name="textboxSystemId" Owner="{0883676F-D46F-45C8-8562-A33BA887E46D}" />
+						<Child Name="buttonSearch" Owner="{2CD8354C-70FA-4626-9EDF-32198F7CA697}" />
+						<Child Name="textnode" Owner="{E9096521-0387-45D4-852A-CF058D2BB965}" />
+						<Child Name="textnodeProduct" Owner="{7EDF7DC7-587E-400A-BDD5-3381FC0D85B9}" />
+						<Child Name="buttonShowMoreFilters" Owner="{C5BC39BE-A33F-4E3D-A889-D00677AD5119}" />
+						<Child Name="vg" Owner="{133A7052-6DD6-49A5-AB78-E232D1C016CE}" />
+						<Child Name="textbox7" Owner="{11803973-4A43-4D59-B7B3-C20E5BAB4CFD}" />
+						<Child Name="panelShowLessFilters" Owner="{96894C3A-C535-48A9-B21E-45D7DAF2DD52}" />
+						<Child Name="textnodeStatus" Owner="{908337A4-96D6-49EA-9846-971EFFBC3DA1}" />
+					</Child>
+					<Child Name="button" Owner="{5A872EF5-55E1-4CEE-9208-868CA5F54B42}" />
+					<Child Name="buttonCloseQuotation" Owner="{1DB05DB4-9A59-4496-BC54-B35F628078D6}" />
+					<Child Name="textnodeDraft" Owner="{0F2E2F84-187F-44FF-A90D-23768971FFD8}" />
+					<Child Name="textnodeOpen2" Owner="{4B6E58FB-6906-46E8-9BC3-56C48C19BC7B}" />
+					<Child Name="textnodeDetails" Owner="{D4240108-FDDB-4F33-999F-1D99CAC78287}">
+						<Child Name="textnodeModality" Owner="{FF63B7E2-28A8-4753-AE49-2B5A7EC39F10}">
+							<Child Name="panelTruck" Owner="{F2690B3B-19A7-4627-93B9-B085993BAA77}" />
+						</Child>
+						<Child Name="textnodeCommodity" Owner="{38296951-A8E0-4FE4-B939-38B1CB2EA488}">
+							<Child Name="panelAgricultureFruitsAnd" Owner="{686E0488-AB49-43AF-AA3F-0496863A977F}" />
+						</Child>
+						<Child Name="textnodeOrigin" Owner="{C64E032F-972C-4471-AA33-88623F26F731}">
+							<Child Name="origin" Owner="{2183637B-EE59-43C1-A148-4AB8EFF00EFC}" />
+						</Child>
+						<Child Name="textnodeDestination" Owner="{70FFC1B7-91A5-4A26-8F8F-6973FF4311F9}">
+							<Child Name="destination" Owner="{BCBFB36E-1CDC-4D16-95AE-B24645FECCE6}" />
+						</Child>
+					</Child>
+					<Child Name="container" Owner="{65BA9E3B-FD21-4473-9D02-2A8395D051CA}" />
+					<Child Name="buttonDownloadAPdfOfThisQuotatio" Owner="{1500912E-C5E9-451D-B69B-C98EBC8F7CA4}" />
+					<Child Name="buttonCopyQuotation" Owner="{678A2D68-266C-414B-93A9-4EBE8375D3E0}" />
+					<Child Name="buttonDeleteQuotation" Owner="{914236F2-72F8-401E-8E7D-2E4071078D58}" />
+					<Child Name="cell3" Owner="{B67A23CD-4E21-42BF-86D9-0A663D4965BF}" />
+					<Child Name="sell_price" Owner="{BBCFEFE3-16C7-4C8B-B8D7-7DBE464F8D8B}" />
+					<Child Name="buttonDropdownbasic1" Owner="{7D718E8F-6A41-4D17-8F3E-104257453217}" />
+					<Child Name="buttonDropdownbasic12" Owner="{763757FC-9E7D-4B4A-ADA4-285F474D47A0}">
+						<Child Name="buttonEdit" Owner="{69B78617-29B3-4A23-B999-D90070625B1E}" />
+						<Child Name="buttonEdit2" Owner="{F06FA9E4-9930-4FD6-92C7-50F5A93C8959}" />
+					</Child>
+					<Child Name="linkQuotations" Owner="{4EEDE477-736B-45C0-AD19-029094F91FF7}" />
+					<Child Name="formCarrier" Owner="{BFD2D022-0F92-420A-8DE2-CA2D96C41827}">
+						<Child Name="buttonAddACharge" Owner="{7296A9B3-7443-4197-8401-B277E85F7CB9}" />
+						<Child Name="vg2" Owner="{0E392457-889B-4962-8491-3E1CCF128BA1}" />
+						<Child Name="vg3" Owner="{823242F6-C2DE-4211-B7EA-23CD7089CD12}" />
+						<Child Name="panelDropdownTrigger" Owner="{D244397C-3D3D-416D-88C2-60D037892202}" />
+						<Child Name="textnodeCalculation" Owner="{74F83320-1576-4B80-9827-A0F9B9D42730}" />
+						<Child Name="textbox9" Owner="{7E19F87E-3B8D-48B2-A194-640686293774}" />
+						<Child Name="textbox10" Owner="{20A3DD07-6C63-4882-87AA-A79428D3F476}" />
+						<Child Name="buttonSave" Owner="{DA21797B-FC59-459F-9D6B-3C118C1A14E6}" />
+						<Child Name="buttonSaveOffer" Owner="{D4F3D9B7-76D1-44EB-BA15-4A81190D7892}" />
+						<Child Name="buttonEdit3" Owner="{F013ED4A-1439-49B9-870F-FE1E5EC7B2B6}" />
+						<Child Name="textnodePrId40Label" Owner="{9103053E-2AD7-4E53-8077-50CBCC871375}" />
+						<Child Name="textnodePrId39Label" Owner="{323838A1-D6ED-4D2B-B26A-4B643FB65DD1}" />
+						<Child Name="buttonDelete" Owner="{93657F8A-C54D-4D51-89BD-3C2604D8CF50}" />
+						<Child Name="textbox11" Owner="{17B5C027-1AA3-426B-9851-56DA97113A00}" />
+						<Child Name="textbox12" Owner="{1B78DE63-FC7D-4706-BD42-8F672A69E09B}" />
+						<Child Name="textnodeCarrier" Owner="{FE9DE3D8-8F3C-489A-94A3-F660F3B0C4D3}" />
+						<Child Name="textnodeKLine" Owner="{B9010CA2-5C00-4F0F-B17E-AA2F26DF35FD}">
+							<Child Name="panelKLine" Owner="{7BAFA8B0-2E38-41E2-95DD-C550CACF0784}" />
+						</Child>
+						<Child Name="textboxRateId" Owner="{E13BA979-DEE4-462F-AD82-761C1580F473}" />
+						<Child Name="textareaQuotationRemarks" Owner="{804904EA-2624-4AE4-9F49-0B1193721173}" />
+						<Child Name="buttonAddACharge2" Owner="{EC46756D-FBDA-4F70-ACD0-39295DEEF983}" />
+						<Child Name="textnodeCharge" Owner="{E35D6249-D0C2-42C8-A44E-16A7873E48A0}" />
+						<Child Name="textnodeCurrency" Owner="{FAE01862-3F7D-4397-BD94-DEC0882981A8}" />
+						<Child Name="textnodeCurrency2" Owner="{CACCBEF2-A03F-4B98-B89A-D6455BA40DA5}" />
+						<Child Name="textboxValidUntil" Owner="{FDAA0A82-CEE0-40DE-8C44-038327F3CF13}" />
+						<Child Name="selectSelectYear" Owner="{A2279ADE-AC23-48CE-8893-4DA3A65E4FD7}" />
+						<Child Name="panel31" Owner="{AE924032-40A7-4D83-AAE2-3FB1F475A31A}" />
+					</Child>
+					<Child Name="final_price" Owner="{6A62141D-FCB7-4563-ADC2-F49531EBC1D6}" />
+					<Child Name="cell6" Owner="{A9F33488-3F6E-4BCE-BEF5-6B0570505D8C}" />
+					<Child Name="button2" Owner="{1A6FB323-B24B-4BC1-A604-E3BD64D28CCD}" />
+					<Child Name="textnodeOpen3" Owner="{712D51FB-0C15-4CA2-AD80-F63430AC0F4F}" />
+					<Child Name="buttonCreateNewOffer" Owner="{1EC30CCD-6893-4E13-B08D-57577D8846E3}" />
+					<Child Name="rateIDOffer" Owner="{935EB701-CB28-4FCF-ABE0-A126AF7B485D}" />
+					<Child Name="textnodeKLine2" Owner="{0C12820D-64B6-421D-BCA2-42B4B8072ACA}" />
+					<Child Name="buttonDownload" Owner="{EDC85E74-DAEE-4411-A206-40C8E1CBA9DC}" />
+					<Child Name="paginator" Owner="{3528FD48-CF32-4A06-B568-32617D770902}" />
+					<Child Name="textnodeClosed2" Owner="{15906BBC-8281-42A7-AC1A-8C493FCAFA38}" />
+					<Child Name="textnodeClosed3" Owner="{9229491B-3ED3-4638-92E9-6697CBEB0A37}" />
+					<Child Name="textnodeRequest" Owner="{B148E89C-2007-4037-A391-6DF005EAACD7}" />
+					<Child Name="buttonCloseWithoutOffer" Owner="{CA9C75CE-6B84-4DB6-A68E-ADAB433F5100}" />
+				</Child>
+				<Child Name="buttonYes" Owner="{84F1A629-39DE-46F3-A7BA-777B4849F685}" />
+				<Child Name="textnodePrId3List" Owner="{517C9D26-7B45-492A-A205-E2BDAFCF8226}">
+					<Child Name="textnodeHubQuotationsStatusOpen" Owner="{83DAAEB1-AFD6-4545-9F20-9B2772670D8B}">
+						<Child Name="panelOpen" Owner="{D22ECD36-CE52-4FFB-9676-65B8BFA82AD3}" />
+					</Child>
+					<Child Name="textnodeHubQuotationsStatusReque" Owner="{4F8E960A-B40A-4C3C-B77D-22C10F83E6F0}">
+						<Child Name="panelRequest" Owner="{DA09037C-375E-47F9-9167-E91F63309932}" />
+					</Child>
+				</Child>
+				<Child Name="textnodePrId2List" Owner="{C1386D10-CFA6-482B-B7BF-30AA477AE0E5}">
+					<Child Name="textnodeHubShipmentSearchFilters" Owner="{F4AF59D7-AD15-4040-AA75-28775698C703}">
+						<Child Name="panelAir2" Owner="{B48EE8FA-6A1B-4FF9-B83D-4452E760DFC5}" />
+					</Child>
+					<Child Name="textnodeHubShipmentSearchFilters2" Owner="{62F96E52-9A3D-44B9-90FB-A26CC9761977}">
+						<Child Name="panelOceanLcl" Owner="{0FBDF04F-7040-42F2-9E8D-59E475CD01AB}" />
+					</Child>
+				</Child>
+				<Child Name="textnodePrId8List" Owner="{B0F90935-1259-49C0-AA5F-311C7DFFC3C5}">
+					<Child Name="textnodeCommonNumberOperatorsGre" Owner="{ACE3FD33-C348-41A4-B68D-FDF1B91629CA}">
+						<Child Name="panelGreaterThan" Owner="{C1BF0CDF-2A85-444B-A8A9-1A74D0F0FF28}" />
+					</Child>
+				</Child>
+				<Child Name="textnodePrId45List" Owner="{DBAB6550-4269-4218-AE1F-1BD414CC8AF9}">
+					<Child Name="textnodeHubQuotationsDetailsOffe" Owner="{A562093A-861D-4CFD-969A-92509E230C66}" />
+					<Child Name="textnodeHubQuotationsDetailsOffe3" Owner="{5000B61D-F33B-46A2-BCB3-19183E4CDBF5}" />
+				</Child>
+				<Child Name="textnodePrId46List" Owner="{44A0E91B-44CB-41B7-B032-2E7AEB695835}">
+					<Child Name="textnode20FootContainerPremium" Owner="{1286569D-1B4D-40AC-8C56-D1453A123D15}" />
+				</Child>
+				<Child Name="textbox8" Owner="{58C05370-396E-4094-8FCD-6C5669098CAB}" />
+				<Child Name="textnodePrId47List" Owner="{C06A0319-A5BE-4874-9915-DEBAE2EBBB52}">
+					<Child Name="textnodeUsd" Owner="{FD8D6CE7-F8E2-42A2-B8DC-06A64A9A0187}">
+						<Child Name="panelUnitedStatesDollar" Owner="{D4E27BAD-E953-4366-AFBB-8900174016B1}" />
+					</Child>
+				</Child>
+				<Child Name="textnodePrId48List" Owner="{E511A9B5-3254-43DF-BD41-C59F1DFFA009}">
+					<Child Name="textnode40" Owner="{EB635D48-509A-4EF3-8473-608F6D86460E}">
+						<Child Name="panel40" Owner="{41779B1B-E844-4282-ADF7-EFEE981C1408}" />
+					</Child>
+				</Child>
+				<Child Name="textnodePrId58List" Owner="{61FACDC9-A8DF-4EDA-AB02-1C6F2638092C}">
+					<Child Name="textnodeHubQuotationsDetailsOffe2" Owner="{33BF2F6C-4F5D-4DA7-908D-207527F20D4C}" />
+				</Child>
+				<Child Name="textnodePrId40List" Owner="{207C581E-EFA4-486E-A645-95EA2A48D66F}">
+					<Child Name="textnodeAdenPiracySurcharge" Owner="{A54748CC-40B2-4E34-B3A9-978E08BEB90B}">
+						<Child Name="textnodeAdenPiracySurcharge2" Owner="{1AA8CF96-337B-438C-8029-332DD88DEF4C}" />
+					</Child>
+				</Child>
+				<Child Name="textarea" Owner="{7B124EFA-0CBD-4127-8559-025BB5A87406}" />
+			</Child>
+			<Child Name="pageMagayaQa" Owner="{4D1AC534-BF91-46B4-AFBB-49DB10912CC6}">
+				<Child Name="navDashboard" Owner="{EDCC7BBD-8689-4379-B45F-5080081929CB}">
+					<Child Name="textnodeSignIn" Owner="{19A394D8-376A-40FA-B020-B030E1A91AA5}">
+						<Child Name="textnodeSignIn2" Owner="{FD4BF904-73C0-4138-BB01-2AF0605E6252}">
+							<Child Name="linkSignIn" Owner="{34459706-1EB6-49D7-BE22-0F0CF77C2904}">
+								<Child Name="textnodeAutomationdfp" Owner="{7B967548-550D-4645-89FE-396E1468E43D}" />
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="textnodeQuotations" Owner="{058EBED1-A67E-4041-BF21-2E12ABBA8C00}">
+						<Child Name="linkQuotations" Owner="{2CC3AD7A-AC4B-4E88-B316-DA4D9CE3BE28}">
+							<Child Name="textnodeQuotations2" Owner="{8ABCA924-D784-496E-91D1-9C54DBC23D38}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeAutomationdfp2" Owner="{2C176B38-3AA2-4049-A2E7-A7F1D70DA981}">
+						<Child Name="textnodeAutomationdfp3" Owner="{EC95A629-5F38-41B6-A0A9-A8363F298422}">
+							<Child Name="buttonSignOut" Owner="{F6CE8B27-14BC-4255-82C7-E9E70D9E2EC5}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formSignInToYourAccount" Owner="{B4CD0D8A-0F99-4220-9169-C06A07A131FB}">
+					<Child Name="textboxEmailAddress" Owner="{60C3F484-E7D1-4824-A6B4-38FC19A1C2E0}" />
+					<Child Name="passwordboxPassword" Owner="{6CC9A14F-C54A-4D36-944C-0AD48236D736}" />
+					<Child Name="buttonSignIn" Owner="{181862A8-A128-4240-BE04-8B572EB0982B}" />
+				</Child>
+				<Child Name="sectionMyPortal" Owner="{5812745D-20A6-4738-8443-3E0FCFFB9DE2}">
+					<Child Name="textnodeNumber" Owner="{24D95937-AEAE-404C-93B6-C5F84E70FE7C}">
+						<Child Name="textnodeQuo01392" Owner="{B6642067-6436-4AB7-879A-589D67D55131}">
+							<Child Name="textnodeCreated" Owner="{2852A3CB-03B2-4C67-B920-A62B2D545ED7}" />
+						</Child>
+						<Child Name="textnodeNoQuotationsFound" Owner="{34830537-8185-4532-A652-BF8F3CDFC6D6}">
+							<Child Name="textnodeNoQuotationsFound2" Owner="{FFE0C7B0-CFC7-44BB-9534-CB7416B740C7}" />
+						</Child>
+						<Child Name="textnodeNoQuotationsFound3" Owner="{D7D226B0-2306-4477-96ED-1F29A125F86D}" />
+					</Child>
+					<Child Name="textnode1To1Of" Owner="{CEC30165-A265-4318-BC0F-364964607A7F}" />
+					<Child Name="formStatus" Owner="{144E9521-7223-4DE8-A10F-DAB35425B7FB}">
+						<Child Name="textboxFriendlyId" Owner="{18C557A0-A498-474A-9063-714AA5C0CBFD}" />
+						<Child Name="buttonSearch" Owner="{CC096377-FD9B-469C-B1E8-422436AF5E30}" />
+					</Child>
+					<Child Name="navSummary" Owner="{25C400EB-342A-4E06-B308-D0534FE0F504}">
+						<Child Name="linkOffers" Owner="{F2C3F6B3-0CBC-47DB-8F92-2A981F9D5A23}" />
+					</Child>
+					<Child Name="textnode" Owner="{BF655C5F-BA90-43F7-B922-CF2BDB6CE7EA}">
+						<Child Name="firstNotification" Owner="{107EFE08-F9B8-4796-BAA0-6BE5A66115EE}" />
+						<Child Name="panelQuotation" Owner="{2B26E544-A78D-43D5-8DAF-0A4175518BD0}" />
+						<Child Name="textnodeDecember62024600Pm" Owner="{8F64F38E-6035-4CDA-979C-4DCF1BE65513}" />
+					</Child>
+				</Child>
+				<Child Name="offersPortal" Owner="{6025C55C-A26E-44AD-AC88-E34B7E6DF9A7}" />
+				<Child Name="headerTopnavbar" Owner="{D524C3EB-603B-432D-B57D-D8EEC393FA85}">
+					<Child Name="textnode5" Owner="{CDE09F84-00AB-4FD0-861A-AB99CFB88307}">
+						<Child Name="textnode52" Owner="{5BEF222E-9EF7-472E-B22C-40783047F76B}">
+							<Child Name="button5" Owner="{0005A667-56EC-47ED-92CD-7494130A787D}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageInbox265Rmsautomation24Gmail" Owner="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
+				<Child Name="textnodeEmail" Owner="{2AA56725-ADA1-4324-BCDB-3EFC8EF2BA47}" />
+				<Child Name="textnodeEmailQuote" Owner="{A45CAA84-57BE-4E67-ADFF-B9F279B71FA0}" />
+				<Child Name="textnodeQuoteID" Owner="{7C57A223-72CB-41C8-86F5-579830E4CADA}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

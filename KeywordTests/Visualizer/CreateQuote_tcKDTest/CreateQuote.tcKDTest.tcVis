@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B088E840-F004-467B-A2A2-C2B9360C7AD5}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45632.6362615741" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.navQuotations.textnodeQuotations.linkQuotations.vgImg" objectLeft="15" objectTop="280" objectRight="33" objectBottom="294" clickPointX="22" clickPointY="285" imageFileName="tcvi329045047210720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45632.6362847222" objectName="Aliases.browser.pageQuotationsMagayaDigitalFreig.sectionQwyk.buttonCreateQuotation" objectLeft="1732" objectTop="233" objectRight="1888" objectBottom="269" clickPointX="1756" clickPointY="252" imageFileName="tcvi329047672210724.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45632.6363078704" objectName="Aliases.browser.pageQuotationsMagayaDigitalFreig.sectionQwyk.formRequest.textbox" objectLeft="626" objectTop="392" objectRight="1286" objectBottom="414" clickPointX="769" clickPointY="412" imageFileName="tcvi329049704210725.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45632.6363541667" objectName="Aliases.browser.pageQuotationsMagayaDigitalFreig.sectionQwyk.formRequest.textnodeRmsautomation24GmailCom" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi329053047210726.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

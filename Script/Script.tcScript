@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="VerifyDownloadLatestPDF" key="{A5641CC4-0114-419A-B0F4-9E852CFA279C}" path="VerifyDownloadLatestPDF.js" />
+		<child name="LogWarning" key="{A56ABF99-8201-47D1-A61D-793E5F7E96C1}" path="LogWarning.js" />
+		<child name="VerifyValues" key="{2030997B-2CFE-49F1-AAAF-B40C943E05E5}" path="VerifyValues.js" />
+		<child name="VerifyDownloadTc9" key="{09A50ADD-8937-4B0D-8F1A-D1F8B025968A}" path="VerifyDownloadTc9.js" />
+	</children>
+</Root>

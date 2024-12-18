@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{BBD271A0-5C66-4376-B0D0-126905A894BC}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="LoginHUBNoInt">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CreateQuote" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFCL" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="OriginDestination">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="origin" DefVarType="8" DefValueType="6" DefValueValue="Los angeles" VarType="8" ValueType="6" ValueValue="Los angeles" />
+						<Parameter Name="destination" DefVarType="8" DefValueType="6" DefValueValue="Shanghai" VarType="8" ValueType="6" ValueValue="Shanghai" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CommodityAndCurrency" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SizeAndAdditionals" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PublishQuotation" />
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="(Project.Variables.offersHub) &gt; 0" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="There Are Offers in the Hub for FCL Quotation. The Test Passed" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
+						<Data Description="Stops running the project tests and posts the specified error string to the log.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="CurrentTestOnly" DefVarType="0" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="ErrorMessage" DefVarType="0" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="There are no FCL rates. The Test FAILED" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="LoginPortal">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="automationdfp24@gmail.com" VarType="8" ValueType="6" ValueValue="rmsautomation24@gmail.com" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchQuotePortal" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyQuotePortal" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyQuoteGmail" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{C1E78670-2EFA-4624-A645-A8CAE2A18659}" />
+</Root>

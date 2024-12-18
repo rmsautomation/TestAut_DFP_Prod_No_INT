@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A0D5AC8B-6DAF-4D8A-BC57-33BCA1AC6355}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45643.5904166667" objectName="Aliases.browser.pageNewQuotationMagayaDigitalFre.sectionQwyk.formSystemId.textnodeProduct" objectLeft="534" objectTop="348" objectRight="934" objectBottom="382" clickPointX="910" clickPointY="367" imageFileName="tcvi92138203111121.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45643.5904398148" objectName="Aliases.browser.pageNewQuotationMagayaDigitalFre.textnodePrId2List.textnodeHubShipmentSearchFilters.panelAir2" objectLeft="547" objectTop="391" objectRight="957" objectBottom="412" clickPointX="593" clickPointY="401" imageFileName="tcvi92138381211122.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45643.590462963" objectName="Aliases.browser.pageNewQuotationMagayaDigitalFre.sectionQwyk.formSystemId.buttonSearch" objectLeft="1741" objectTop="398" objectRight="1812" objectBottom="434" clickPointX="1794" clickPointY="413" imageFileName="tcvi92138609311123.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
