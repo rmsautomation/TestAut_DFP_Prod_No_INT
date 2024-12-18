@@ -17,7 +17,9 @@
 				</folder>
 				<folder name="Home" />
 				<folder name="Radar" />
-				<folder name="Shipments" />
+				<folder name="Shipments">
+					<child name="TC_16_HubShipmentsNoINTFilters" key="{6E2EBED5-493B-4656-9AF4-49B7D43905EB}" path="TC_16_HubShipmentsNoINTFilters.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Portal">
 				<folder name="QuotationPOrtal">
@@ -63,6 +65,20 @@
 					<child name="FilterMoreThan1" key="{C281B264-B038-4526-980C-60A86D19935D}" path="FilterMoreThan1.tcKDTest" />
 					<child name="FilterLCL" key="{D1C18F9E-A0BD-43F5-8FEB-56D8518C0AD9}" path="FilterLCL.tcKDTest" />
 					<child name="FilterStatusRequest" key="{23D09972-C313-41D0-8CC7-35EDFA369EBB}" path="FilterStatusRequest.tcKDTest" />
+					<child name="FilterCompletedStatus" key="{D397ADF6-198C-4EF9-934A-89B1AAEFD3BC}" path="FilterCompletedStatus.tcKDTest" />
+					<child name="FilterShipmentReference" key="{183B7144-E044-44C5-B552-4518E48301CD}" path="FilterShipmentReference.tcKDTest" />
+					<child name="FilterCustomer" key="{F94EAEFA-9B64-4481-A5E2-755F985C2EEA}" path="FilterCustomer.tcKDTest" />
+					<child name="FilterCustomerReference" key="{459F4510-6774-4615-83DA-9AB69EAF1517}" path="FilterCustomerReference.tcKDTest" />
+					<child name="FilterBookingDate" key="{82B482FA-2A3E-4689-9122-8FD8ACC3D281}" path="FilterBookingDate.tcKDTest" />
+					<child name="FilterMilestoneConfirmed" key="{251B099A-F46F-4D09-8C0B-37A83C52DA03}" path="FilterMilestoneConfirmed.tcKDTest" />
+					<child name="FilterMasterBL" key="{CF7BF750-226D-48F6-82A4-A483F60D5080}" path="FilterMasterBL.tcKDTest" />
+					<child name="FilterHouseBL" key="{2638234A-F4C0-46CE-B58C-2927412BB4BA}" path="FilterHouseBL.tcKDTest" />
+					<child name="FilterETD" key="{D40A85FA-7FF6-4A9F-8E11-6DCC864E95D2}" path="FilterETD.tcKDTest" />
+					<child name="FilterETA" key="{BBB7D7FE-DDFB-4A0F-9316-2DBE51AC80A0}" path="FilterETA.tcKDTest" />
+					<child name="FilterAccountManager" key="{C8F2FD7B-4F4B-4CB3-807F-943096560A72}" path="FilterAccountManager.tcKDTest" />
+					<child name="FilterProduct" key="{B15F483E-1113-450A-A6DC-42098201AC5F}" path="FilterProduct.tcKDTest" />
+					<child name="FilterSort" key="{F627C10B-313F-446D-BA84-1A162171492F}" path="FilterSort.tcKDTest" />
+					<child name="FilterVessel" key="{4F756BD7-D190-42FD-A8D9-F5EF4285D570}" path="FilterVessel.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="LoginAndLogout">

@@ -84,6 +84,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC_16_HubShipmentsNoINTFilters" key="{0D96A964-B11F-41E8-8CE6-8CD97CBE3662}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E2EBED5-493B-4656-9AF4-49B7D43905EB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{905CCE08-4086-4C02-B278-D09EFC163554}">
