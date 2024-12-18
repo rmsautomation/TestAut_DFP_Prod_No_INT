@@ -925,6 +925,371 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAbout" Key="{203B9C7D-3A95-4062-86A2-0CBCD393A797}">
+										<Image FileName="1611539572" Left="628" Top="364" Right="1369" Bottom="382" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;About&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-profile//div//h6[contains(@class, &apos;mb-3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-profile//div//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionGoodEveningAylinRodriguez" Key="{B8AA0486-952A-4972-9B67-D49DD4C5559B}">
+										<Image FileName="1362913500" Left="50" Top="121" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good evening, Aylin Rodriguez&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCompleteYourProfile" Key="{60AD3A68-2D3D-4332-B8F2-D340FD332EAC}">
+										<Image FileName="959537256" Left="245" Top="423" Right="394" Bottom="441" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Complete your Profile&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Profile&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//h6/a[contains(@class, &apos;ng-tns-c361-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotations3" Key="{A5F8C214-60A8-4F7F-8EB6-3679FCFAD6DC}">
+										<Image FileName="-1073304707" Left="73" Top="243" Right="203" Bottom="275" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Quotations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipments2" Key="{60B9A19D-E754-41E7-915A-A6FD5AFB3F79}">
+										<Image FileName="54535228" Left="73" Top="241" Right="199" Bottom="273" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Shipments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePortalUsers" Key="{CE887D5F-1EAF-4C75-B4FB-77F975FAB03C}">
+										<Image FileName="290236749" Left="73" Top="243" Right="218" Bottom="275" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Portal Users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUserApprovals" Key="{1EB58871-D9F7-4A64-A926-F204E1682317}">
+										<Image FileName="1983721284" Left="127" Top="539" Right="647" Bottom="562" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[.=&apos;User Approvals&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/qwyk-customer-users-list-widget//h5[contains(@class, &apos;card-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/qwyk-customer-users-list-widget//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkQuotationRequests" Key="{08D3D584-3A71-4076-9F2E-2B7E71BA08A4}">
+										<Image FileName="1031930879" Left="725" Top="538" Right="894" Bottom="561" />
+										<TypeInfo Item0="{9B78BE31-D683-44B4-B802-095BE0754294}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Quotation Requests&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-homepage//div[2]/qwyk-quotation-list-widget//a[contains(@class, &apos;h5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-list-widget/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRecentNotifications" Key="{EF30B8B2-F36B-47B2-BA89-D987E46F3F28}">
+										<Image FileName="1758801503" Left="1322" Top="538" Right="1496" Bottom="561" />
+										<TypeInfo Item0="{9B78BE31-D683-44B4-B802-095BE0754294}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Recent Notifications&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-homepage//div[3]/qwyk-notifications-list-widget//a[contains(@class, &apos;h5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list-widget/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourSites" Key="{91628C18-74BD-41C0-8FC3-F0EED73F863E}">
+										<Image FileName="37692723" Left="127" Top="759" Right="647" Bottom="782" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h5[.=&apos;Your Sites&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-homepage//qwyk-sites-list-widget//h5[contains(@class, &apos;card-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-homepage//div[3]//qwyk-sites-list-widget//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{6CD7430C-2F6E-4976-BAB3-9507CBFF560B}">
+										<Image FileName="-1895219321" Left="0" Top="175" Right="51" Bottom="220" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Home&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{024B5BDE-DAD3-4705-9EDA-7E955FC4FF4B}">
+										<Image FileName="-1895219321" Left="0" Top="175" Right="51" Bottom="221" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{8ABF4F4D-63E1-4FDE-8D20-8760C0732D61}">
+										<Image FileName="-1895219321" Left="16" Top="190" Right="32" Bottom="203" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewQuotations" Key="{516E154C-8029-4A15-892A-EAA8145D129C}">
+										<Image FileName="762031235" Left="701" Top="423" Right="813" Bottom="441" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;View Quotations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6/a[@title=&apos;Quotations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/h6/a[contains(@class, &apos;ng-tns-c361-3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[2]//h6/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkViewShipments" Key="{9592F58A-D163-4E32-A5D9-92ADC3B067A3}">
+										<Image FileName="1472809307" Left="1140" Top="423" Right="1250" Bottom="441" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;View Shipments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Shipments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//h6/a[contains(@class, &apos;ng-tns-c361-10&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[3]//h6/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkManageYourPortal" Key="{74C10643-A6B8-4110-8894-9FE9B1128D07}">
+										<Image FileName="-2013459598" Left="1566" Top="423" Right="1700" Bottom="441" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Manage your Portal&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6/a[@title=&apos;Sites&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//h6/a[contains(@class, &apos;ng-tns-c361-14&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//div[4]//h6/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSite" Key="{DBCB50A1-A805-40FE-BD1C-C4B4DF5FFF15}">
+										<Image FileName="279786793" Left="536" Top="294" Right="581" Bottom="326" />
+										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Site&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfprms" Key="{95B37959-BDB5-4082-A22D-DD2D2DAFD22E}">
+										<Image FileName="-436760594" Left="1291" Top="489" Right="1856" Bottom="1028" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;AutomationDFPRMS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfprms2" Key="{C7B9CEF0-14AB-42C4-9E37-4E03EB65194C}">
+										<Image FileName="-436760594" Left="1291" Top="489" Right="1856" Bottom="597" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;AutomationDFPRMS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[contains(@class, &apos;list-group-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonView" Key="{EA606F2C-B1A1-4F52-857C-8E84F736BE33}">
+										<Image FileName="-436760594" Left="1728" Top="528" Right="1834" Bottom="558" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[@class=&apos;btn btn-primary btn-sm&apos; and contains(text(), &apos;View&apos;)]/span[@class=&apos;d-none d-lg-inline-block&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;View&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list-widget/qwyk-notifications-list/ul/li//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list-widget/qwyk-notifications-list/ul/li//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgImg2" Key="{E13E0235-3C69-4750-B8D7-9953E7B37A34}">
+										<Image FileName="1174944605" Left="15" Top="189" Right="33" Bottom="203" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMagayaQa" Key="{CB9ABCB8-5955-4D31-B873-9155FFF5C409}">
+										<Image FileName="-333624207" Left="97" Top="796" Right="662" Bottom="974" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;magaya-qa.qwykportals.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-sites-list-widget/ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-sites-list-widget/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMagayaQa2" Key="{89B17E02-609F-4747-919D-CC507C2E7914}">
+										<Image FileName="-333624207" Left="97" Top="796" Right="662" Bottom="885" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;magaya-qa.qwykportals.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-sites-list-widget/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-sites-list-widget/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageIcon" Key="{C09B3B7E-C397-4A40-A611-840C36964122}">
+										<Image FileName="-333624207" Left="119" Top="829" Right="143" Bottom="853" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//qwyk-sites-list-widget/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//qwyk-sites-list-widget/ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMagayaQa" Key="{11C98759-B417-48D5-9D59-938BA2C3BCCD}">
+										<Image FileName="-1448814829" Left="166" Top="820" Right="244" Bottom="838" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Magaya QA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/qwyk-sites-list-widget/ul/li//a[contains(@class, &apos;m-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//qwyk-sites-list-widget/ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogInMagayaDfp" Key="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
@@ -3484,6 +3849,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vgImg" Key="{E0ED7A1D-8ACA-4663-9E2E-849ACE1D6AF9}">
+										<Image FileName="-715558265" Left="15" Top="189" Right="33" Bottom="203" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaQa" Key="{4D1AC534-BF91-46B4-AFBB-49DB10912CC6}">
@@ -5212,6 +5592,13 @@
 							<Child Name="textnode2" Owner="{8710A8D0-0D62-4CDC-9767-C251C7A61B00}" />
 						</Child>
 					</Child>
+					<Child Name="textnodeHome" Owner="{6CD7430C-2F6E-4976-BAB3-9507CBFF560B}">
+						<Child Name="link" Owner="{024B5BDE-DAD3-4705-9EDA-7E955FC4FF4B}">
+							<Child Name="textnode4" Owner="{8ABF4F4D-63E1-4FDE-8D20-8760C0732D61}" />
+							<Child Name="vgImg" Owner="{E0ED7A1D-8ACA-4663-9E2E-849ACE1D6AF9}" />
+							<Child Name="vgImg2" Owner="{E13E0235-3C69-4750-B8D7-9953E7B37A34}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="sectionQwyk" Owner="{AEADEC79-3471-4FDD-A850-9362B2CF67EF}">
 					<Child Name="formShipmentReference" Owner="{AE092A4C-051F-41AB-B4A1-A38005551160}">
@@ -5238,6 +5625,15 @@
 					<Child Name="panel11Of1" Owner="{855A74D2-4E97-4497-8569-0D174C8D247C}" />
 					<Child Name="panelQaTeam" Owner="{D6BB0682-1D7B-4094-8FB9-2D43A89BC67B}" />
 					<Child Name="textnodeDecember82021657Pm" Owner="{CFF3C090-3BCE-40BB-AFAC-A5041DF18C52}" />
+					<Child Name="textnodeAbout" Owner="{203B9C7D-3A95-4062-86A2-0CBCD393A797}" />
+					<Child Name="textnodeQuotations3" Owner="{A5F8C214-60A8-4F7F-8EB6-3679FCFAD6DC}" />
+					<Child Name="textnodeShipments2" Owner="{60B9A19D-E754-41E7-915A-A6FD5AFB3F79}" />
+					<Child Name="textnodePortalUsers" Owner="{CE887D5F-1EAF-4C75-B4FB-77F975FAB03C}" />
+					<Child Name="textnodeUserApprovals" Owner="{1EB58871-D9F7-4A64-A926-F204E1682317}" />
+					<Child Name="linkQuotationRequests" Owner="{08D3D584-3A71-4076-9F2E-2B7E71BA08A4}" />
+					<Child Name="linkRecentNotifications" Owner="{EF30B8B2-F36B-47B2-BA89-D987E46F3F28}" />
+					<Child Name="textnodeYourSites" Owner="{91628C18-74BD-41C0-8FC3-F0EED73F863E}" />
+					<Child Name="textnodeSite" Owner="{DBCB50A1-A805-40FE-BD1C-C4B4DF5FFF15}" />
 				</Child>
 				<Child Name="textnodeBooked3" Owner="{6F226D90-82EE-4034-958D-0DD82D89B046}">
 					<Child Name="textnodeHubShipmentSearchFilters" Owner="{B4585088-7EC0-42DD-92AE-4ABC1325D142}">
@@ -5259,6 +5655,23 @@
 				<Child Name="textbox4" Owner="{FDCD492E-8142-44C3-8454-866DF02C57CF}" />
 				<Child Name="textnodePrId21List" Owner="{9448D1E0-6484-49D8-B8B3-E4F092EEFAE3}">
 					<Child Name="textnodeHubShipmentSearchFilters3" Owner="{6951DE1E-297D-414A-A256-63B8C396AD73}" />
+				</Child>
+				<Child Name="sectionGoodEveningAylinRodriguez" Owner="{B8AA0486-952A-4972-9B67-D49DD4C5559B}">
+					<Child Name="linkCompleteYourProfile" Owner="{60AD3A68-2D3D-4332-B8F2-D340FD332EAC}" />
+					<Child Name="linkViewQuotations" Owner="{516E154C-8029-4A15-892A-EAA8145D129C}" />
+					<Child Name="linkViewShipments" Owner="{9592F58A-D163-4E32-A5D9-92ADC3B067A3}" />
+					<Child Name="linkManageYourPortal" Owner="{74C10643-A6B8-4110-8894-9FE9B1128D07}" />
+					<Child Name="textnodeAutomationdfprms" Owner="{95B37959-BDB5-4082-A22D-DD2D2DAFD22E}">
+						<Child Name="textnodeAutomationdfprms2" Owner="{C7B9CEF0-14AB-42C4-9E37-4E03EB65194C}">
+							<Child Name="buttonView" Owner="{EA606F2C-B1A1-4F52-857C-8E84F736BE33}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeMagayaQa" Owner="{CB9ABCB8-5955-4D31-B873-9155FFF5C409}">
+						<Child Name="textnodeMagayaQa2" Owner="{89B17E02-609F-4747-919D-CC507C2E7914}">
+							<Child Name="sites_list" Owner="{C09B3B7E-C397-4A40-A611-840C36964122}" />
+							<Child Name="linkMagayaQa" Owner="{11C98759-B417-48D5-9D59-938BA2C3BCCD}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageLogInMagayaDfp" Owner="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
