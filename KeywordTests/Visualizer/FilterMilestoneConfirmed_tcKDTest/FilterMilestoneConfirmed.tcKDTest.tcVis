@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{251B099A-F46F-4D09-8C0B-37A83C52DA03}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45644.8349421296" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.buttonReset" objectLeft="1805" objectTop="750" objectRight="1868" objectBottom="786" clickPointX="1819" clickPointY="766" imageFileName="tcvi1028905609108960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45644.8349652778" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.textnodeMilestone" objectLeft="534" objectTop="458" objectRight="934" objectBottom="492" clickPointX="578" clickPointY="470" imageFileName="tcvi1028907812108961.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45644.8349884259" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.textnodeBooked3.textnodeConfirmed" objectLeft="534" objectTop="575" objectRight="953" objectBottom="609" clickPointX="579" clickPointY="591" imageFileName="tcvi1028909828108962.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45644.8350115741" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.buttonSearch" objectLeft="1726" objectTop="750" objectRight="1797" objectBottom="786" clickPointX="1750" clickPointY="766" imageFileName="tcvi1028911859108963.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

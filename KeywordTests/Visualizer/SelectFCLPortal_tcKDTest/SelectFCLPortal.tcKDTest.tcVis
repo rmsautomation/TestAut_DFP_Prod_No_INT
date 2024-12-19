@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{AF14B5DA-D59F-462C-8F56-9A976DBA6F6A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45644.5759490741" objectName="Aliases.browser.pageMagayaQa.formHowDoYouWantToShip.labelOcean.textnodeOcean" objectLeft="1286" objectTop="503" objectRight="1331" objectBottom="527" clickPointX="1291" clickPointY="507" imageFileName="tcvi100652962592520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45644.5759722222" objectName="Aliases.browser.pageMagayaQa.formHowDoYouWantToShip.labelFullFcl" objectLeft="1070" objectTop="538" objectRight="1219" objectBottom="576" clickPointX="1170" clickPointY="552" imageFileName="tcvi100653125092521.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
