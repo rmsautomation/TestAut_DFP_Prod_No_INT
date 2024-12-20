@@ -59,11 +59,6 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC_11_145_FCLBuyerBooked" key="{E6FF323B-7C2D-4163-9011-52831C70CDE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
 			<testItem name="TC_12_146_LCLBuyerRequested" key="{889C7EEE-5ABD-4B9E-8AFE-2B4B3EC6379B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A74BF80F-4E6C-4679-9AF8-97BBB1FC5E46}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
@@ -97,6 +92,11 @@
 			<testItem name="TC__18_QWYK_281_Hub_Radar" key="{5470A10F-BC45-4AE0-86A4-D2BDB89DFEAF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{867D1FC1-457F-4CFD-B461-EA5DCF835914}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_11_145_FCLBuyerBooked" key="{E6FF323B-7C2D-4163-9011-52831C70CDE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
