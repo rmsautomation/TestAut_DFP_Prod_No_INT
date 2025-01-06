@@ -90,8 +90,8 @@ function checkCompletedStatus() {
 }
  
 function checkShipmentReference() {
-  var shipmentXPath = "//a[contains(@href, '/shipments/') and normalize-space(text())='TC_7606']";
-  checkFilter(shipmentXPath, "Shipment Reference TC_7606");
+  var shipmentXPath = "//a[contains(@href, '/shipments/') and normalize-space(text())='SRTM00019742']";
+  checkFilter(shipmentXPath, "Shipment Reference SRTM00019742");
 }
  
 function checkCustomer() {
