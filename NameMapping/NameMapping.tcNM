@@ -1729,6 +1729,66 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel1" Key="{7B5D3DC3-BD2A-4BFA-85B2-5F7D0DEF40C5}">
+										<Image FileName="-1697770203" Left="1392" Top="397" Right="1422" Bottom="427" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/div[contains(@class, &apos;btn-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2025" Key="{F80A2A93-4AF0-438F-8310-B322C5704988}">
+										<Image FileName="286219488" Left="318" Top="515" Right="368" Bottom="561" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2024" Key="{0F22509B-ABD8-4861-A9E2-E8971E0D159A}">
+										<Image FileName="-532934570" Left="99" Top="638" Right="304" Bottom="674" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2025" Key="{0F85F035-8D37-4F23-8E66-6803F9D7B32E}">
+										<Image FileName="442167948" Left="752" Top="719" Right="957" Bottom="755" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan" Key="{BFFD9576-E88E-4A83-BBEF-44B7473B068D}">
+										<Image FileName="-113819155" Left="547" Top="662" Right="684" Bottom="698" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Jan&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{11BBA917-CC39-49DD-8535-F0F9ED9B826F}">
+										<Image FileName="1237460061" Left="616" Top="760" Right="654" Bottom="798" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogInMagayaDfp" Key="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
@@ -4303,6 +4363,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="selectSelectMonth" Key="{0B04737C-AA81-4147-B4C2-599F32AC9F73}">
+										<Image FileName="-761952738" Left="1305" Top="337" Right="1375" Bottom="365" />
+										<TypeInfo Item0="{E916E2B0-CD04-4694-9C8E-9C234E238D8C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@title=&apos;Select month&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1" Key="{E6551C7F-5731-43AE-9CE5-C29FD6AE00E7}">
+										<Image FileName="145782146" Left="1423" Top="599" Right="1453" Bottom="629" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[6]/div[contains(@class, &apos;btn-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaQa" Key="{4D1AC534-BF91-46B4-AFBB-49DB10912CC6}">
@@ -5969,6 +6047,28 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{CC2A7D80-1227-4B17-A120-F334F599341E}">
+								<Image FileName="1382077517" Left="0" Top="0" Right="70" Bottom="290" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{F4E5E60C-1B12-4CEC-8C8C-7153A80B10FC}">
+										<Image FileName="1382077517" Left="0" Top="0" Right="70" Bottom="290" />
+										<TypeInfo Item0="{14CB68E2-1CC4-420F-9E7E-5B9B5462BABE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{FA415DAE-CC87-48F9-8755-2666260D9D9E}">
@@ -6150,6 +6250,11 @@
 						<Child Name="buttonApply" Owner="{20C61E1F-0DD4-4017-83BB-47A646B8E298}" />
 					</Child>
 				</Child>
+				<Child Name="button2025" Owner="{F80A2A93-4AF0-438F-8310-B322C5704988}" />
+				<Child Name="textnode2024" Owner="{0F22509B-ABD8-4861-A9E2-E8971E0D159A}" />
+				<Child Name="textnode2025" Owner="{0F85F035-8D37-4F23-8E66-6803F9D7B32E}" />
+				<Child Name="textnodeJan" Owner="{BFFD9576-E88E-4A83-BBEF-44B7473B068D}" />
+				<Child Name="textnode6" Owner="{11BBA917-CC39-49DD-8535-F0F9ED9B826F}" />
 			</Child>
 			<Child Name="pageLogInMagayaDfp" Owner="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
 				<Child Name="sectionWelcome" Owner="{3922FC38-4A33-4443-917A-984773C640B1}">
@@ -6307,6 +6412,9 @@
 						<Child Name="textboxValidUntil" Owner="{FDAA0A82-CEE0-40DE-8C44-038327F3CF13}" />
 						<Child Name="selectSelectYear" Owner="{A2279ADE-AC23-48CE-8893-4DA3A65E4FD7}" />
 						<Child Name="panel31" Owner="{AE924032-40A7-4D83-AAE2-3FB1F475A31A}" />
+						<Child Name="selectSelectMonth" Owner="{0B04737C-AA81-4147-B4C2-599F32AC9F73}" />
+						<Child Name="panel1" Owner="{7B5D3DC3-BD2A-4BFA-85B2-5F7D0DEF40C5}" />
+						<Child Name="panel12" Owner="{E6551C7F-5731-43AE-9CE5-C29FD6AE00E7}" />
 					</Child>
 					<Child Name="final_price" Owner="{6A62141D-FCB7-4563-ADC2-F49531EBC1D6}" />
 					<Child Name="cell6" Owner="{A9F33488-3F6E-4BCE-BEF5-6B0570505D8C}" />
@@ -6537,6 +6645,9 @@
 				<Child Name="textnodeEmail" Owner="{2AA56725-ADA1-4324-BCDB-3EFC8EF2BA47}" />
 				<Child Name="textnodeEmailQuote" Owner="{A45CAA84-57BE-4E67-ADFF-B9F279B71FA0}" />
 				<Child Name="textnodeQuoteID" Owner="{7C57A223-72CB-41C8-86F5-579830E4CADA}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{CC2A7D80-1227-4B17-A120-F334F599341E}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{F4E5E60C-1B12-4CEC-8C8C-7153A80B10FC}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{FA415DAE-CC87-48F9-8755-2666260D9D9E}">
