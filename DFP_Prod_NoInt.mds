@@ -182,6 +182,12 @@
 				<Variable Name="notificationAfter" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003100330044003300460034004400380043004200460031003800430039003800430037003900360044004100460046003000330031004300300043003300330043004100320041003000350043004500320030003400430041003200440043004600440034003700330034004100440046003400360034003300360038003500" />
+				</Variable>
+				<Variable Name="emailNow" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

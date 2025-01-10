@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{374C6C0E-44A9-406A-B9A9-CE928C687228}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45666.8460532407" objectName="Aliases.browser.pageYopmailDisposableEmailAddres.frameIfinbox.button2016" objectLeft="198" objectTop="365" objectRight="545" objectBottom="427" clickPointX="236" clickPointY="404" imageFileName="tcvi27059893746440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45666.8462268518" objectName="Aliases.browser.pageYopmailDisposableEmailAddres.frameIfmail.linkConfirmYourEmail" objectLeft="889" objectTop="547" objectRight="974" objectBottom="565" clickPointX="934" clickPointY="555" imageFileName="tcvi27061382846441.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45666.8465625" objectName="Aliases.browser.pageMagayaQa.buttonContinueToSignIn" objectLeft="881" objectTop="748" objectRight="1039" objectBottom="786" clickPointX="926" clickPointY="766" imageFileName="tcvi27064318746443.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
