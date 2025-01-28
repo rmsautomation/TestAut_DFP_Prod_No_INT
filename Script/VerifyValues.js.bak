@@ -1,11 +1,11 @@
 ﻿function verifyPriceSum(charge_value) {
   var priceString= Project.Variables.original_price;
     // Step 1: Clean the price string by removing the dollar sign and commas
-    var numericString = priceString.replace(/[$,]/g, "");
+    var numericString = priceString.replace(/[$,€]/g, "");
  
     // Step 2: Convert the cleaned string to a number
     var priceNumber = parseFloat(numericString);
-    //var charge_valueNum = parseFloat(charge_value);
+    var charge_valueNum = parseFloat(charge_value);
  
     if (isNaN(priceNumber)) {
         Log.Error("The price string could not be converted to a valid number.");
@@ -13,15 +13,15 @@
     }
  
     // Step 3: Add the additional amount to the price
-    var expected_price = priceNumber + charge_value;
+    var expected_price = priceNumber + charge_valueNum;
  
     // Step 4: Compare the result with the expected final price
     var final_price_string = Project.Variables.final_price; // Assume final_price is a number variable
     
-     var numericFinalString = final_price_string.replace(/[$,]/g, "");
+     var numericFinalString = final_price_string.replace(/[$,€]/g, "");
  
     // Step 2: Convert the cleaned string to a number
-    var final_priceNumber = parseFloat(numericFinalString);
+    var final_priceNumber = parseInt(numericFinalString);
  
     if (isNaN(final_priceNumber)) {
         Log.Error("The price string could not be converted to a valid number.");
