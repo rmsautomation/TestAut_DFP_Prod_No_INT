@@ -2014,6 +2014,41 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkLogOut" Key="{F04BC751-F62D-474E-B0AD-BF6FF92AB8EF}">
+										<Image FileName="552371343" Left="1651" Top="348" Right="1899" Bottom="384" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]/div/a[contains(@class, &apos;p-menuitem-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;hubHeader&apos;]//ul/p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{E38E0C8D-1BAA-40BF-94C1-EBF93209A3C9}">
+										<Image FileName="552371343" Left="1695" Top="358" Right="1742" Bottom="375" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span[contains(@class, &apos;ng-tns-c1201608176-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogInMagayaDfp" Key="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
@@ -6641,6 +6676,9 @@
 						<Child Name="textnodeHubnavbarprofileitem" Owner="{B052660F-FBFC-42B1-A641-48C8EB25DDD2}">
 							<Child Name="buttonHubnavbarprofileitembutton" Owner="{B5C5E70F-B6EA-45C4-883E-C86CC9C369EB}" />
 							<Child Name="buttonHubnavbarlogoutlistbutton" Owner="{8AD525D5-8FEF-424C-BE26-918A839D5D54}" />
+						</Child>
+						<Child Name="linkLogOut" Owner="{F04BC751-F62D-474E-B0AD-BF6FF92AB8EF}">
+							<Child Name="textnodeLogOut" Owner="{E38E0C8D-1BAA-40BF-94C1-EBF93209A3C9}" />
 						</Child>
 					</Child>
 				</Child>

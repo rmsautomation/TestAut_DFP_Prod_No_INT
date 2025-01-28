@@ -2,6 +2,5 @@
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{F1556B9E-4908-4071-BE68-3F8D83D78CD9}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45632.6328703704" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.headerHubheader.textnodeHubnavbar.textnodeHubnavbarprofileitem.buttonHubnavbarprofileitembutton" objectLeft="1840" objectTop="129" objectRight="1901" objectBottom="166" clickPointX="1860" clickPointY="142" imageFileName="tcvi328752344210720.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45632.6328819444" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.headerHubheader.textnodeHubnavbar.textnodeHubnavbarprofileitem.buttonHubnavbarlogoutlistbutton" objectLeft="1647" objectTop="300" objectRight="1901" objectBottom="338" clickPointX="1723" clickPointY="321" imageFileName="tcvi328753657210721.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>
