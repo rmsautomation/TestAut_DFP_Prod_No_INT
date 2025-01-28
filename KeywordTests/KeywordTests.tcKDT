@@ -24,8 +24,9 @@
 				<folder name="Shipments">
 					<child name="TC_16_HubShipmentsNoINTFilters" key="{6E2EBED5-493B-4656-9AF4-49B7D43905EB}" path="TC_16_HubShipmentsNoINTFilters.tcKDTest" />
 				</folder>
-				<folder name="Portal">
+				<folder name="PortalTab">
 					<child name="TC_19_1482_HUBCreateCustomerNoInt" key="{072A777C-A884-446D-8D4C-2CA84D52C485}" path="TC_19_1482_HUBCreateCustomerNoInt.tcKDTest" />
+					<child name="TC_20_1483_HUBCustomerCreateUser" key="{B3846D23-ECCF-46A4-8613-5C643644ADF5}" path="TC_20_1483_HUBCustomerCreateUser.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Portal">
@@ -93,6 +94,8 @@
 				<folder name=" PortalSection">
 					<child name="CreateCustomer" key="{A2F2BF43-2310-4547-A4F1-CAB1E26D8D93}" path="CreateCustomer.tcKDTest" />
 					<child name="SearchCustomer" key="{5981FCB7-D8D7-417A-AD27-8A96A7F07A96}" path="SearchCustomer.tcKDTest" />
+					<child name="CreateUser" key="{F56B7E62-63BE-4E54-A720-D02B57420150}" path="CreateUser.tcKDTest" />
+					<child name="SearchUser" key="{E30D34C2-94EA-4EBA-9D68-C14A4E22A176}" path="SearchUser.tcKDTest" />
 				</folder>
 				<folder name="Home">
 					<child name="VerifyRegisterNotification" key="{8967637E-4454-49FD-8923-9F9161575BC0}" path="VerifyRegisterNotification.tcKDTest" />
@@ -133,6 +136,7 @@
 				<child name="VerifyGmailBooked" key="{CC620639-9CBE-457C-B578-89F314D4A8AC}" path="VerifyGmailBooked.tcKDTest" />
 				<child name="CreateYopmailEmail" key="{3F710885-B98D-4F0C-BA5D-64A799B620F4}" path="CreateYopmailEmail.tcKDTest" />
 				<child name="VerifyEmailRegistration" key="{374C6C0E-44A9-406A-B9A9-CE928C687228}" path="VerifyEmailRegistration.tcKDTest" />
+				<child name="VerifyEmailCreation" key="{84C6D952-D0D1-45F1-881D-EFB90F58518E}" path="VerifyEmailCreation.tcKDTest" />
 			</folder>
 		</folder>
 	</children>
