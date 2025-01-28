@@ -7047,6 +7047,159 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageGmail" Key="{B1FF1020-6B94-4F15-BB4C-4A15B0375C2C}">
+								<Image FileName="1300503436" Left="0" Top="87" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accounts.google.com/v3/signin/identifier*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionEmailOrPhone" Key="{9C1B1403-2A51-4305-ADA3-658F8AF49AC2}">
+										<Image FileName="1300503436" Left="984" Top="439" Right="1444" Bottom="535" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Email or phone&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;Em2Ord&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;yDmH0d&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailOrPhone" Key="{1A32CC96-4C7D-4EF6-888E-40F936EF44DC}">
+										<Image FileName="1300503436" Left="986" Top="449" Right="1442" Bottom="501" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#identifierId" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;identifier&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;whsOnd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;yDmH0d&apos;]//div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{779418E4-AFDF-41AC-BEB8-58751CE6E08A}">
+										<Image FileName="-199330952" Left="1365" Top="657" Right="1444" Bottom="697" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[3]//div//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[3]//div//button[contains(@class, &apos;VfPpkd-LgbsSe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;identifierNext&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[3]//div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGmail2" Key="{2CF558B5-C7B0-4C9B-93DC-3221EB44290B}">
+								<Image FileName="1300503436" Left="0" Top="87" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://accounts.google.com/v3/signin/challenge/pwd*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionEnterYourPassword" Key="{D7C09894-DFCB-4A29-A776-2646C48CCDE9}">
+										<Image FileName="539038572" Left="984" Top="472" Right="1444" Bottom="589" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Enter your password&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxEnterYourPassword" Key="{D21765F0-D81E-437C-94C7-65FE2FCAFB6D}">
+										<Image FileName="539038572" Left="986" Top="498" Right="1442" Bottom="550" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;Passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//input[contains(@class, &apos;whsOnd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;password&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]/div/div/div/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxShowPassword" Key="{68507735-20FC-498E-BFA0-704C9C3621FC}">
+										<Image FileName="-1826250817" Left="972" Top="548" Right="1020" Bottom="596" />
+										<TypeInfo Item0="{0DCDA547-8FBD-4D64-9CCC-67314A1AD261}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-labelledby=(//div[text()=&apos;Show password&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{219F0D45-E3E4-4380-ACED-E796455DE32D}">
+										<Image FileName="234724178" Left="1365" Top="648" Right="1444" Bottom="688" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[3]//div//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[3]//div//button[contains(@class, &apos;VfPpkd-LgbsSe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;passwordNext&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-wiz//div[3]//div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{FA415DAE-CC87-48F9-8755-2666260D9D9E}">
@@ -7709,6 +7862,19 @@
 				<Child Name="frameIfinbox" Owner="{5CB2064E-C8BB-4DEF-805D-D69189346038}">
 					<Child Name="button2016" Owner="{FDEFFD65-F341-41CF-BAA1-E12D9916621D}" />
 				</Child>
+			</Child>
+			<Child Name="pageGmail" Owner="{B1FF1020-6B94-4F15-BB4C-4A15B0375C2C}">
+				<Child Name="sectionEmailOrPhone" Owner="{9C1B1403-2A51-4305-ADA3-658F8AF49AC2}">
+					<Child Name="emailinputEmailOrPhone" Owner="{1A32CC96-4C7D-4EF6-888E-40F936EF44DC}" />
+				</Child>
+				<Child Name="buttonNext" Owner="{779418E4-AFDF-41AC-BEB8-58751CE6E08A}" />
+			</Child>
+			<Child Name="pageGmail2" Owner="{2CF558B5-C7B0-4C9B-93DC-3221EB44290B}">
+				<Child Name="sectionEnterYourPassword" Owner="{D7C09894-DFCB-4A29-A776-2646C48CCDE9}">
+					<Child Name="passwordboxEnterYourPassword" Owner="{D21765F0-D81E-437C-94C7-65FE2FCAFB6D}" />
+					<Child Name="checkboxShowPassword" Owner="{68507735-20FC-498E-BFA0-704C9C3621FC}" />
+				</Child>
+				<Child Name="buttonNext" Owner="{219F0D45-E3E4-4380-ACED-E796455DE32D}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{FA415DAE-CC87-48F9-8755-2666260D9D9E}">
