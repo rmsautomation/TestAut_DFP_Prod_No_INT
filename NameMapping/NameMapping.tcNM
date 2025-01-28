@@ -213,6 +213,9 @@
 										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[normalize-space() = &apos;Open&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[contains(@class, &apos;status-badge&apos;)]" />
 											</Selector>
 											<Selector>
@@ -2927,7 +2930,7 @@
 										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Quotation created by Aylin Rodriguez&apos;)]" />
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;Quotation created by&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2945,7 +2948,7 @@
 										<TypeInfo Item0="{B99EBA10-1AD8-4878-AA62-59C03CE5694E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Quotation published by Aylin Rodriguez&apos;)]" />
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;Quotation published by&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//qwyk-activity-event-list-item/div/div" />
