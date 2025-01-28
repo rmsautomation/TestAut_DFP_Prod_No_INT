@@ -92,6 +92,7 @@
 				</folder>
 				<folder name=" PortalSection">
 					<child name="CreateCustomer" key="{A2F2BF43-2310-4547-A4F1-CAB1E26D8D93}" path="CreateCustomer.tcKDTest" />
+					<child name="SearchCustomer" key="{5981FCB7-D8D7-417A-AD27-8A96A7F07A96}" path="SearchCustomer.tcKDTest" />
 				</folder>
 				<folder name="Home">
 					<child name="VerifyRegisterNotification" key="{8967637E-4454-49FD-8923-9F9161575BC0}" path="VerifyRegisterNotification.tcKDTest" />

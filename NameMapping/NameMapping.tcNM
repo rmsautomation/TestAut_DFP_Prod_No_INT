@@ -2049,6 +2049,102 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textbox6" Key="{66B6D57F-7E11-4421-AAC2-5912ED5EC5BC}">
+										<Image FileName="1167011293" Left="127" Top="351" Right="405" Bottom="381" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_64-table&apos;]//th[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePortalCustomers" Key="{DE0B43E8-AE8C-4D97-9816-1EC03600480D}">
+										<Image FileName="569567492" Left="65" Top="253" Right="272" Bottom="285" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Portal Customers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{4A0E2C32-C4D7-4BEF-A6C0-62C3AFECD522}">
+										<Image FileName="886324181" Left="422" Top="390" Right="695" Bottom="429" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Company&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{5B601551-2D1F-4929-BEF2-D46D2BCFFCC9}">
+										<Image FileName="1359412993" Left="695" Top="390" Right="1007" Bottom="429" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;Customer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPagePage" Key="{2F512BBE-1682-4F68-AA35-6F890001DD7C}">
+										<Image FileName="1359412993" Left="929" Top="431" Right="965" Bottom="467" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_64&apos;]//span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAutomationnow" Key="{02B7E6BE-F43B-4E0D-8CA4-80C258072FC8}">
+										<Image FileName="-1231175115" Left="127" Top="401" Right="228" Bottom="418" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[starts-with(@href, &apos;/administration/portal-teams/&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePortalCustomer" Key="{42128A66-5150-42F5-9CD0-CAEAEE38E4B6}">
+										<Image FileName="-2107210113" Left="528" Top="251" Right="721" Bottom="283" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space()=&apos;Portal Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogInMagayaDfp" Key="{BCC373F2-9B07-4580-B42F-934A41A262B2}">
@@ -6785,6 +6881,13 @@
 						<Child Name="buttonCreateCustomer2" Owner="{EB17F8F7-07E0-44B0-9B77-36823CA1B769}" />
 						<Child Name="panelSelectAnAccountManager" Owner="{F95D9D84-116F-4821-A118-B1EBECBEE899}" />
 					</Child>
+					<Child Name="textbox6" Owner="{66B6D57F-7E11-4421-AAC2-5912ED5EC5BC}" />
+					<Child Name="textnodePortalCustomers" Owner="{DE0B43E8-AE8C-4D97-9816-1EC03600480D}" />
+					<Child Name="cell2" Owner="{4A0E2C32-C4D7-4BEF-A6C0-62C3AFECD522}" />
+					<Child Name="cell3" Owner="{5B601551-2D1F-4929-BEF2-D46D2BCFFCC9}" />
+					<Child Name="buttonPagePage" Owner="{2F512BBE-1682-4F68-AA35-6F890001DD7C}" />
+					<Child Name="linkAutomationnow" Owner="{02B7E6BE-F43B-4E0D-8CA4-80C258072FC8}" />
+					<Child Name="textnodePortalCustomer" Owner="{42128A66-5150-42F5-9CD0-CAEAEE38E4B6}" />
 				</Child>
 				<Child Name="textnodeBooked3" Owner="{6F226D90-82EE-4034-958D-0DD82D89B046}">
 					<Child Name="textnodeHubShipmentSearchFilters" Owner="{B4585088-7EC0-42DD-92AE-4ABC1325D142}">
