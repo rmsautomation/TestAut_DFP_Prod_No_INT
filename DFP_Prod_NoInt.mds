@@ -59,6 +59,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC_11_145_FCLBuyerBooked" key="{E6FF323B-7C2D-4163-9011-52831C70CDE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_12_146_LCLBuyerRequested" key="{889C7EEE-5ABD-4B9E-8AFE-2B4B3EC6379B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A74BF80F-4E6C-4679-9AF8-97BBB1FC5E46}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
@@ -94,9 +99,19 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="TC_11_145_FCLBuyerBooked" key="{E6FF323B-7C2D-4163-9011-52831C70CDE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_19_1482_HUBCreateCustomerNoInt" key="{FCD9225B-8AD9-4666-8BB4-B944CE477CC8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{072A777C-A884-446D-8D4C-2CA84D52C485}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT" />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_20_1483_HUBCustomerCreateUser" key="{C13A09B8-DFF3-467D-AEF7-C44B599E3755}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B3846D23-ECCF-46A4-8613-5C643644ADF5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_21_272_NewUserRegistration" key="{B0E70A88-1A49-459E-B7A0-4C6A1F94FD02}" group="False" parallel="False" enabled="True" testMoniker="KDT\{13924D71-04DE-4762-973B-E03186AFBC21}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>
@@ -186,6 +201,9 @@
 					<DefValue StrValue="38003900360031003100330044003300460034004400380043004200460031003800430039003800430037003900360044004100460046003000330031004300300043003300330043004100320041003000350043004500320030003400430041003200440043004600440034003700330034004100440046003400360034003300360038003500" />
 				</Variable>
 				<Variable Name="emailNow" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="portalPass" Type="String" Local="False">
 					<DefValue />
 				</Variable>
 			</Items>

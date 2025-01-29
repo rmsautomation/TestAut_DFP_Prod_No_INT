@@ -62,13 +62,20 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageNewQuotationMagayaDigitalFre.sectionQwyk.paginator;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageMagayaDigitalFreightPortalHu.sectionQwyk.footerPage;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="new_offers">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageMagayaDigitalFreightPortalHu.sectionQwyk.footerPage.contentText" />
+					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="quote_number">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="NewValue" DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageNewQuotationMagayaDigitalFre.sectionQwyk.paginator.contentText" />
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.new_offers.match(/\d+(?=\s+of)/)" />
 					</Parameters>
 				</Data>
 			</Operation>
