@@ -3962,6 +3962,9 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//li[normalize-space(text()) = &apos;20-Foot Container Premium&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//li[.=&apos;20-Foot Container Premium&apos;]" />
 											</Selector>
 											<Selector>
@@ -4350,6 +4353,9 @@
 										<Image FileName="-1173763446" Left="462" Top="419" Right="603" Bottom="436" />
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[@role=&apos;option&apos; and normalize-space(.) = &apos;Aden Piracy Surcharge&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="//span[.=&apos;Aden Piracy Surcharge&apos;]" />
 											</Selector>
