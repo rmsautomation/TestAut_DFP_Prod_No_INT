@@ -4616,10 +4616,10 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;charge&apos;]" />
+												<Value Value="//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//tr/td[3]/p-dropdown//span[contains(@class, &apos;p-dropdown-label&apos;)]" />
+												<Value Value="//span[.=&apos;charge&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//table[@id=&apos;pr_id_32-table&apos;]//tr/td[3]/p-dropdown//span" />
