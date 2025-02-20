@@ -4969,7 +4969,7 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[2]/tr/td[3]" />
+												<Value Value="xpath=//td[normalize-space()=&apos;20-Foot Container Premium&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7600,7 +7600,7 @@
 						<Child Name="panel1" Owner="{7B5D3DC3-BD2A-4BFA-85B2-5F7D0DEF40C5}" />
 						<Child Name="panel12" Owner="{E6551C7F-5731-43AE-9CE5-C29FD6AE00E7}" />
 						<Child Name="cell8" Owner="{53116C6D-ED0A-462C-B527-53B756B7CA8D}" />
-						<Child Name="cell9" Owner="{EA918F05-93C0-4C3C-A9F6-307998E5E8BB}" />
+						<Child Name="foot20Cont" Owner="{EA918F05-93C0-4C3C-A9F6-307998E5E8BB}" />
 					</Child>
 					<Child Name="final_price" Owner="{6A62141D-FCB7-4563-ADC2-F49531EBC1D6}" />
 					<Child Name="cell6" Owner="{A9F33488-3F6E-4BCE-BEF5-6B0570505D8C}" />
