@@ -37,7 +37,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/*" />
+										<Value Value="https://*.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2464,7 +2464,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list*" />
+										<Value Value="https://*.qwykportals.com/quotations/list*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2506,7 +2506,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4982,7 +4982,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qa.qwykportals.com/*" />
+										<Value Value="https://*.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
