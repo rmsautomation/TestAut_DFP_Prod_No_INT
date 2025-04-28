@@ -120,7 +120,7 @@
 		<data Version="4">
 			<Items>
 				<Variable Name="urlProdNoInt" Type="String" Local="False">
-					<DefValue StrValue="https://hub1.qwykportals.com/" />
+					<DefValue StrValue="https://hub.qwykportals.com/" />
 				</Variable>
 				<Variable Name="quoteID" Type="String" Local="False">
 					<DefValue />
@@ -132,7 +132,7 @@
 					<DefValue StrValue="38003900360031003100330044003200460034004400380041004200460034004500430039003800430037004600310038003000300031004300370036003000420032003900300044004500310044003800380032003700310030003900350036003200390032004400390041003600330038004500420041003800300030003300460034004600390037003500350036003200420038003800440033003800" />
 				</Variable>
 				<Variable Name="urlPortalProdNoInt" Type="String" Local="False">
-					<DefValue StrValue="https://magaya-qa.new-cluster.qwykportals.com/" />
+					<DefValue StrValue="https://magaya-qa.qwykportals.com/" />
 				</Variable>
 				<Variable Name="offersPortal" Type="String" Local="False">
 					<DefValue />
