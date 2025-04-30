@@ -6785,6 +6785,73 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxSearchbox2" Key="{1F1B2F07-95C3-415E-9C48-84CDA61C46B9}">
+										<Image FileName="357261920" Left="1024" Top="554" Right="1377" Bottom="590" />
+										<TypeInfo Item0="{87B1A882-4F6A-4009-A21F-224D787AC8A9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@role=&apos;searchbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;p-multiselect-filter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiolMagaya" Key="{DB99E762-6677-4954-A655-526FD34E072C}">
+										<Image FileName="-2024037443" Left="984" Top="597" Right="1421" Bottom="631" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Yisel Obiol Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-multiselect-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiolMagaya2" Key="{3981F6FA-F0CA-496A-B29E-CE2ADAD88443}">
+										<Image FileName="-2024037443" Left="984" Top="597" Right="1421" Bottom="631" />
+										<Selectors>
+											<Selector>
+												<Value Value="#account_manager_ids_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Yisel Obiol Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-multiselectitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{F5AFF5EC-5143-426E-8D2F-F66042DA9951}">
+										<Image FileName="-2024037443" Left="997" Top="604" Right="1017" Bottom="624" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/div/div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;account_manager_ids_0&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox265Rmsautomation24Gmail" Key="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
@@ -7844,6 +7911,12 @@
 				</Child>
 				<Child Name="textboxUndefined" Owner="{BB394D15-C04F-4A52-9AD7-2ACC23BDDB20}" />
 				<Child Name="panelChina2" Owner="{5E06DD48-2839-4DE5-BA29-5DC47E749C0C}" />
+				<Child Name="textboxSearchbox2" Owner="{1F1B2F07-95C3-415E-9C48-84CDA61C46B9}" />
+				<Child Name="textnodeYiselObiolMagaya" Owner="{DB99E762-6677-4954-A655-526FD34E072C}">
+					<Child Name="textnodeYiselObiolMagaya2" Owner="{3981F6FA-F0CA-496A-B29E-CE2ADAD88443}">
+						<Child Name="panel" Owner="{F5AFF5EC-5143-426E-8D2F-F66042DA9951}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="pageInbox265Rmsautomation24Gmail" Owner="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
 				<Child Name="textnodeEmail" Owner="{2AA56725-ADA1-4324-BCDB-3EFC8EF2BA47}" />
