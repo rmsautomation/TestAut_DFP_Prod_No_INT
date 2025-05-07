@@ -9,107 +9,107 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{B6365E6E-C524-4379-AF6B-C603328A7F62}" version="14">
 		<children>
-			<testItem name="TC_1_129_CreateOpenFCL" key="{47DB0350-0057-4C9C-A590-9C0E765C81D3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{FC523264-6F40-4A1B-A760-7F9E5B3F761A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_1_129_CreateOpenFCL" key="{47DB0350-0057-4C9C-A590-9C0E765C81D3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FC523264-6F40-4A1B-A760-7F9E5B3F761A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_2_131_CreateCloseGround" key="{969C50C9-8B39-43CA-8CAE-91F4254F5DD6}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{BA2C3442-4FE6-4472-9C42-6BDFA56E791F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_2_131_CreateCloseGround" key="{969C50C9-8B39-43CA-8CAE-91F4254F5DD6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BA2C3442-4FE6-4472-9C42-6BDFA56E791F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_3_132_CreateDraftAIR" key="{0EF923C6-69F6-45A1-AA63-65342F227352}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{1FF54774-6591-437E-8EB5-0625151805E0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_3_132_CreateDraftAIR" key="{0EF923C6-69F6-45A1-AA63-65342F227352}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1FF54774-6591-437E-8EB5-0625151805E0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_4_133_CreateOpenLCL" key="{6BDCF47C-5B1E-4157-AB6E-92A6CACC87E4}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{7BDDC665-222E-47CD-955E-DC2B2BB6C26B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_4_133_CreateOpenLCL" key="{6BDCF47C-5B1E-4157-AB6E-92A6CACC87E4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7BDDC665-222E-47CD-955E-DC2B2BB6C26B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_5_134_CreateOpenLTL" key="{A6093FC1-795E-4C63-A213-AE87284DAF5A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{F31568CD-EC8C-498B-A35C-0886EF4A4FD6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_5_134_CreateOpenLTL" key="{A6093FC1-795E-4C63-A213-AE87284DAF5A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{F31568CD-EC8C-498B-A35C-0886EF4A4FD6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_6_FCL_DownloadCopyDelete" key="{DCAE0048-EF93-4E78-8CA8-42F8C5F8F20A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0DE32798-1707-4AFF-8E57-6A91EA2ABAF8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_6_FCL_DownloadCopyDelete" key="{DCAE0048-EF93-4E78-8CA8-42F8C5F8F20A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0DE32798-1707-4AFF-8E57-6A91EA2ABAF8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_7_139_Edit_Offer" key="{6A02AFE4-C27B-4AE1-857B-759562BCE1C1}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{07652C17-F2BD-460E-A30E-91AF956D3AD9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_7_139_Edit_Offer" key="{6A02AFE4-C27B-4AE1-857B-759562BCE1C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{07652C17-F2BD-460E-A30E-91AF956D3AD9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_8_142CreateOfferLCL" key="{AD978C77-CD07-4358-BFDF-FD8073A4BFEF}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{CB845FBC-D9EE-45F6-813E-4D136CB39F55}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_8_142CreateOfferLCL" key="{AD978C77-CD07-4358-BFDF-FD8073A4BFEF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CB845FBC-D9EE-45F6-813E-4D136CB39F55}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_9_158Download_All_Quotations" key="{3388C301-C9B9-4B73-82AF-A85E15E0B961}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{7A18F8A8-1A0A-4223-B3EE-416462D67FC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_9_158Download_All_Quotations" key="{3388C301-C9B9-4B73-82AF-A85E15E0B961}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7A18F8A8-1A0A-4223-B3EE-416462D67FC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_10_162_ChangeStatusToClose" key="{FA6ACF56-70A1-4686-AF17-EE8F8C6CE5E1}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{C86E1D63-1EF4-41D8-BFEB-593B7EE1BBFD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_10_162_ChangeStatusToClose" key="{FA6ACF56-70A1-4686-AF17-EE8F8C6CE5E1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C86E1D63-1EF4-41D8-BFEB-593B7EE1BBFD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_11_145_FCLBuyerBooked" key="{E6FF323B-7C2D-4163-9011-52831C70CDE2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_11_145_FCLBuyerBooked" key="{E6FF323B-7C2D-4163-9011-52831C70CDE2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1DC39EB8-7185-4F04-97D0-A8CD218FA2A1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_12_146_LCLBuyerRequested" key="{889C7EEE-5ABD-4B9E-8AFE-2B4B3EC6379B}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A74BF80F-4E6C-4679-9AF8-97BBB1FC5E46}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_12_146_LCLBuyerRequested" key="{889C7EEE-5ABD-4B9E-8AFE-2B4B3EC6379B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A74BF80F-4E6C-4679-9AF8-97BBB1FC5E46}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_13_149Ground_BuyerRequested" key="{63D3BE05-E3D9-4FB6-BFE0-AF3F9AB25C74}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{3905F0D9-E4C3-4B0E-A653-2C4C3FD2B27E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_13_149Ground_BuyerRequested" key="{63D3BE05-E3D9-4FB6-BFE0-AF3F9AB25C74}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3905F0D9-E4C3-4B0E-A653-2C4C3FD2B27E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_14_150_LTLSellerRequested" key="{E37A2839-E8DD-4DE2-9FFD-B8758578E715}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{1F01B46C-4CDC-48BA-820F-1AE31127B9F4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_14_150_LTLSellerRequested" key="{E37A2839-E8DD-4DE2-9FFD-B8758578E715}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1F01B46C-4CDC-48BA-820F-1AE31127B9F4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_15_152AIRBuyerRequested" key="{04CFAFC5-989D-4F5C-A7B9-3176904C7340}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{56084E8C-1A0B-4A1A-9FE3-2B608837F584}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_15_152AIRBuyerRequested" key="{04CFAFC5-989D-4F5C-A7B9-3176904C7340}" group="False" parallel="False" enabled="True" testMoniker="KDT\{56084E8C-1A0B-4A1A-9FE3-2B608837F584}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_16_HubShipmentsNoINTFilters" key="{0D96A964-B11F-41E8-8CE6-8CD97CBE3662}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{6E2EBED5-493B-4656-9AF4-49B7D43905EB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_16_HubShipmentsNoINTFilters" key="{0D96A964-B11F-41E8-8CE6-8CD97CBE3662}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6E2EBED5-493B-4656-9AF4-49B7D43905EB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_17_QWYK_280_Hub_Home" key="{79BB794D-6585-4046-9EBA-79A90B33EE22}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{00DFE41D-0EA2-4FD7-A09F-953303243FDB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_17_QWYK_280_Hub_Home" key="{79BB794D-6585-4046-9EBA-79A90B33EE22}" group="False" parallel="False" enabled="True" testMoniker="KDT\{00DFE41D-0EA2-4FD7-A09F-953303243FDB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC__18_QWYK_281_Hub_Radar" key="{5470A10F-BC45-4AE0-86A4-D2BDB89DFEAF}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{867D1FC1-457F-4CFD-B461-EA5DCF835914}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC__18_QWYK_281_Hub_Radar" key="{5470A10F-BC45-4AE0-86A4-D2BDB89DFEAF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{867D1FC1-457F-4CFD-B461-EA5DCF835914}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_19_1482_HUBCreateCustomerNoInt" key="{FCD9225B-8AD9-4666-8BB4-B944CE477CC8}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{072A777C-A884-446D-8D4C-2CA84D52C485}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_19_1482_HUBCreateCustomerNoInt" key="{FCD9225B-8AD9-4666-8BB4-B944CE477CC8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{072A777C-A884-446D-8D4C-2CA84D52C485}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_20_1483_HUBCustomerCreateUser" key="{C13A09B8-DFF3-467D-AEF7-C44B599E3755}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{B3846D23-ECCF-46A4-8613-5C643644ADF5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_20_1483_HUBCustomerCreateUser" key="{C13A09B8-DFF3-467D-AEF7-C44B599E3755}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B3846D23-ECCF-46A4-8613-5C643644ADF5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_21_272_NewUserRegistration" key="{B0E70A88-1A49-459E-B7A0-4C6A1F94FD02}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{13924D71-04DE-4762-973B-E03186AFBC21}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_21_272_NewUserRegistration" key="{B0E70A88-1A49-459E-B7A0-4C6A1F94FD02}" group="False" parallel="False" enabled="True" testMoniker="KDT\{13924D71-04DE-4762-973B-E03186AFBC21}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -210,7 +210,7 @@
 		</data>
 	</variables>
 	<settings key="{8CD55736-FF14-41BF-A26C-225FE1EB2698}">
-		<settingsVersion value="15.72" />
+		<settingsVersion value="15.65" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
