@@ -6984,6 +6984,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionDfp" Key="{26414E71-2000-406A-B319-5DD06C6EE7D2}">
+										<Image FileName="1827212035" Left="50" Top="-87" Right="1905" Bottom="2334" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{E8924B97-854D-4BC5-B115-A3035F61BDFD}">
+										<Image FileName="1827212035" Left="1730" Top="629" Right="1890" Bottom="687" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Booking Date&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox265Rmsautomation24Gmail" Key="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
@@ -8060,6 +8083,9 @@
 					<Child Name="textnodeYiselObiolMagaya2" Owner="{3981F6FA-F0CA-496A-B29E-CE2ADAD88443}">
 						<Child Name="panel" Owner="{F5AFF5EC-5143-426E-8D2F-F66042DA9951}" />
 					</Child>
+				</Child>
+				<Child Name="sectionDfp" Owner="{26414E71-2000-406A-B319-5DD06C6EE7D2}">
+					<Child Name="cell" Owner="{E8924B97-854D-4BC5-B115-A3035F61BDFD}" />
 				</Child>
 			</Child>
 			<Child Name="pageInbox265Rmsautomation24Gmail" Owner="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
