@@ -9,5 +9,6 @@
 		<child name="CloseChrome" key="{48D0D112-F609-4DA9-8773-DE8053CF8E8F}" path="CloseChrome.js" />
 		<child name="FailTest" key="{1A42E86D-F6CF-4B3C-998B-E5105EA8EB4F}" path="FailTest.js" />
 		<child name="CleanCache" key="{2335B05C-FEF7-4C8B-B4C8-3D9AE7B55A03}" path="CleanCache.js" />
+		<child name="VerifyBookingDateDescending" key="{86AA855A-0CE3-4E8D-B99F-4B74B5ED790A}" path="VerifyBookingDateDescending.js" />
 	</children>
 </Root>
