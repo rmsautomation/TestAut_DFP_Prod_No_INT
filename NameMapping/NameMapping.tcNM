@@ -7075,6 +7075,64 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionQwyk" Key="{F2771A76-9EEA-4FB4-8F71-8B1DD9FA12FD}">
+										<Image FileName="909163303" Left="50" Top="-13" Right="1905" Bottom="2133" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCarrier" Key="{1D953D03-C6FF-443F-A81A-AD998B230AA4}">
+										<Image FileName="909163303" Left="240" Top="657" Right="1716" Bottom="2067" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{87376FD5-2862-45E7-92D4-CF2E71D8AE55}">
+										<Image FileName="909163303" Left="699" Top="861" Right="712" Bottom="868" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{CA188A7F-77D7-441F-9803-16C1434F4229}">
+										<Image FileName="-1273027927" Left="1385" Top="581" Right="1500" Bottom="620" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Total Sell&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{CF0421AD-3ADB-49E6-8364-552843A34DA1}">
+										<Image FileName="-1273027927" Left="1615" Top="581" Right="1715" Bottom="738" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-offer-lines-table/p-table//tfoot/tr/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox265Rmsautomation24Gmail" Key="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
@@ -8160,6 +8218,13 @@
 					<Child Name="textnodeHubShipmentSearchFilters" Owner="{0CD27381-8B5B-4F67-8FD5-6F20C72BD186}">
 						<Child Name="panelBookingDate" Owner="{C41BD7DB-1FF2-49B0-9521-4CC2C8CB03D4}" />
 					</Child>
+				</Child>
+				<Child Name="sectionQwyk" Owner="{F2771A76-9EEA-4FB4-8F71-8B1DD9FA12FD}">
+					<Child Name="formCarrier" Owner="{1D953D03-C6FF-443F-A81A-AD998B230AA4}">
+						<Child Name="cell2" Owner="{CA188A7F-77D7-441F-9803-16C1434F4229}" />
+						<Child Name="cell3" Owner="{CF0421AD-3ADB-49E6-8364-552843A34DA1}" />
+					</Child>
+					<Child Name="currencyDrop" Owner="{87376FD5-2862-45E7-92D4-CF2E71D8AE55}" />
 				</Child>
 			</Child>
 			<Child Name="pageInbox265Rmsautomation24Gmail" Owner="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
