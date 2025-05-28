@@ -6472,7 +6472,7 @@
 												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button[contains(@class, &apos;btn&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button" />
+												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6985,7 +6985,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="sectionDfp" Key="{26414E71-2000-406A-B319-5DD06C6EE7D2}">
-										<Image FileName="1827212035" Left="50" Top="-87" Right="1905" Bottom="2334" />
 										<Selectors>
 											<Selector>
 												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
@@ -6999,11 +6998,138 @@
 										</Selectors>
 									</Child>
 									<Child Name="cell" Key="{E8924B97-854D-4BC5-B115-A3035F61BDFD}">
-										<Image FileName="1827212035" Left="1730" Top="629" Right="1890" Bottom="687" />
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
 												<Value Value="//th[contains(text(), &apos;Booking Date&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{D940BA32-E43C-4519-A987-7A8EC0F394ED}">
+										<Image FileName="568296369" Left="272" Top="586" Right="285" Bottom="593" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_24&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId24List" Key="{21D3CD57-CA0B-4C36-83F7-CE69E4B5C3BC}">
+										<Image FileName="385146502" Left="138" Top="609" Right="296" Bottom="745" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_24_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Updated&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubShipmentSearchFilters" Key="{0CD27381-8B5B-4F67-8FD5-6F20C72BD186}">
+										<Image FileName="385146502" Left="138" Top="643" Right="296" Bottom="677" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_24_1" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Booking date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;hub.shipment.search.filters.sort.booked_at&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBookingDate" Key="{C41BD7DB-1FF2-49B0-9521-4CC2C8CB03D4}">
+										<Image FileName="385146502" Left="151" Top="649" Right="283" Bottom="670" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Booking date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_24_1&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[2]/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionQwyk" Key="{F2771A76-9EEA-4FB4-8F71-8B1DD9FA12FD}">
+										<Image FileName="909163303" Left="50" Top="-13" Right="1905" Bottom="2133" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCarrier" Key="{1D953D03-C6FF-443F-A81A-AD998B230AA4}">
+										<Image FileName="909163303" Left="240" Top="657" Right="1716" Bottom="2067" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{87376FD5-2862-45E7-92D4-CF2E71D8AE55}">
+										<Image FileName="909163303" Left="699" Top="861" Right="712" Bottom="868" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{CA188A7F-77D7-441F-9803-16C1434F4229}">
+										<Image FileName="-1273027927" Left="1385" Top="581" Right="1500" Bottom="620" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Total Sell&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{CF0421AD-3ADB-49E6-8364-552843A34DA1}">
+										<Image FileName="-1273027927" Left="1615" Top="581" Right="1715" Bottom="738" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-offer-lines-table/p-table//tfoot/tr/td[4]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7951,6 +8077,7 @@
 					<Child Name="formStatus" Owner="{144E9521-7223-4DE8-A10F-DAB35425B7FB}">
 						<Child Name="textboxFriendlyId" Owner="{18C557A0-A498-474A-9063-714AA5C0CBFD}" />
 						<Child Name="buttonSearch" Owner="{CC096377-FD9B-469C-B1E8-422436AF5E30}" />
+						<Child Name="textnode2" Owner="{D940BA32-E43C-4519-A987-7A8EC0F394ED}" />
 					</Child>
 					<Child Name="navSummary" Owner="{25C400EB-342A-4E06-B308-D0534FE0F504}">
 						<Child Name="linkOffers" Owner="{F2C3F6B3-0CBC-47DB-8F92-2A981F9D5A23}" />
@@ -8086,6 +8213,18 @@
 				</Child>
 				<Child Name="sectionDfp" Owner="{26414E71-2000-406A-B319-5DD06C6EE7D2}">
 					<Child Name="cell" Owner="{E8924B97-854D-4BC5-B115-A3035F61BDFD}" />
+				</Child>
+				<Child Name="textnodePnId24List" Owner="{21D3CD57-CA0B-4C36-83F7-CE69E4B5C3BC}">
+					<Child Name="textnodeHubShipmentSearchFilters" Owner="{0CD27381-8B5B-4F67-8FD5-6F20C72BD186}">
+						<Child Name="panelBookingDate" Owner="{C41BD7DB-1FF2-49B0-9521-4CC2C8CB03D4}" />
+					</Child>
+				</Child>
+				<Child Name="sectionQwyk" Owner="{F2771A76-9EEA-4FB4-8F71-8B1DD9FA12FD}">
+					<Child Name="formCarrier" Owner="{1D953D03-C6FF-443F-A81A-AD998B230AA4}">
+						<Child Name="cell2" Owner="{CA188A7F-77D7-441F-9803-16C1434F4229}" />
+						<Child Name="cell3" Owner="{CF0421AD-3ADB-49E6-8364-552843A34DA1}" />
+					</Child>
+					<Child Name="currencyDrop" Owner="{87376FD5-2862-45E7-92D4-CF2E71D8AE55}" />
 				</Child>
 			</Child>
 			<Child Name="pageInbox265Rmsautomation24Gmail" Owner="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
