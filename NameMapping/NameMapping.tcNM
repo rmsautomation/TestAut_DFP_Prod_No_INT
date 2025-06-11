@@ -7133,6 +7133,231 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeNotifications" Key="{F6A43955-6ED0-49D9-ACC2-009FB930CE73}">
+										<Image FileName="243166356" Left="193" Top="199" Right="344" Bottom="231" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Notifications&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiolGonzLez" Key="{D57D6D54-48DE-4CB6-B375-B5D95335411B}">
+										<Image FileName="-1864524430" Left="193" Top="261" Right="1763" Bottom="349" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Yisel Obiol González&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiolGonzLez2" Key="{2CACD6A9-A1A8-47DC-BCE2-B662783F6948}">
+										<Image FileName="-1864524430" Left="263" Top="286" Right="380" Bottom="301" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{45509C74-6670-45A2-8F69-6C514A3D004A}">
+										<Image FileName="-1803929782" Left="263" Top="304" Right="1598" Bottom="326" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Yisel Obiol González from Magaya booked a new shipment&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProdsinintdfp" Key="{23DD7516-0D3E-4674-9C54-3D0C341CC271}">
+										<Image FileName="-1174580645" Left="193" Top="553" Right="1763" Bottom="640" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[25]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProdsinintdfp2" Key="{C500272E-6C96-4D9B-A7AA-FCA1831A8A01}">
+										<Image FileName="-1174580645" Left="263" Top="577" Right="341" Bottom="592" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[last()]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[25]//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[25]//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{42F9EA74-5691-41E8-A588-9690DA02636D}">
+										<Image FileName="399708106" Left="1728" Top="685" Right="1743" Bottom="700" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_20&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId20List" Key="{8690A677-749C-4C00-9C1C-B55B2E320607}">
+										<Image FileName="231564794" Left="1696" Top="571" Right="1754" Bottom="673" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_20_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;50&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode50" Key="{E568C2D3-3EFB-4183-82CF-51E3340DDEE9}">
+										<Image FileName="231564794" Left="1696" Top="639" Right="1754" Bottom="673" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_20_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode502" Key="{8234E595-1842-43F3-883D-79987D0F604B}">
+										<Image FileName="231564794" Left="1709" Top="648" Right="1725" Bottom="665" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_20_2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAutomationdfprms" Key="{59E800D6-6A40-463A-B653-F91B950C6295}">
+										<Image FileName="354863922" Left="193" Top="552" Right="1763" Bottom="639" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[30]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{982A3459-FD2B-481E-80A6-2104488DFB6C}">
+										<Image FileName="354863922" Left="263" Top="594" Right="1598" Bottom="616" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[last()]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{A5567A61-4440-4F7C-93F1-25362204BF24}">
+										<Image FileName="-1049021285" Left="1696" Top="570" Right="1754" Bottom="604" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_20_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLastPage" Key="{92677FD4-63AD-4606-A7D2-0EDC1BF45D31}">
+										<Image FileName="115412575" Left="1651" Top="674" Right="1687" Bottom="710" />
+										<TypeInfo Item0="{C53609E8-A64B-42FE-9625-692A54A77F79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-paginator-last&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProdsinintdfp3" Key="{3C8710E6-7EB6-4CB6-80D0-71C986576D18}">
+										<Image FileName="-1079075869" Left="193" Top="261" Right="1763" Bottom="349" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;prodsinIntdfp&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelProdsinintdfp" Key="{0F7FAC66-EF61-416F-91CB-D9A437C4544A}">
+										<Image FileName="-1079075869" Left="263" Top="285" Right="1598" Bottom="304" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li//div[contains(@class, &apos;info&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox265Rmsautomation24Gmail" Key="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
@@ -8049,6 +8274,12 @@
 						<Child Name="textnodeAutomationdfp3" Owner="{EC95A629-5F38-41B6-A0A9-A8363F298422}">
 							<Child Name="buttonSignOut" Owner="{F6CE8B27-14BC-4255-82C7-E9E70D9E2EC5}" />
 						</Child>
+						<Child Name="textnodeYiselObiolGonzLez" Owner="{D57D6D54-48DE-4CB6-B375-B5D95335411B}">
+							<Child Name="panel2" Owner="{45509C74-6670-45A2-8F69-6C514A3D004A}" />
+						</Child>
+						<Child Name="textnodeProdsinintdfp" Owner="{23DD7516-0D3E-4674-9C54-3D0C341CC271}" />
+						<Child Name="textnodeAutomationdfprms" Owner="{59E800D6-6A40-463A-B653-F91B950C6295}" />
+						<Child Name="textnodeProdsinintdfp3" Owner="{3C8710E6-7EB6-4CB6-80D0-71C986576D18}" />
 					</Child>
 					<Child Name="textnodeShipments" Owner="{56764B1D-09AD-4ACB-B506-341F7C951F33}">
 						<Child Name="linkShipments" Owner="{154DC4A1-6FB3-4025-B409-7131CA54C08D}">
@@ -8213,6 +8444,9 @@
 				</Child>
 				<Child Name="sectionDfp" Owner="{26414E71-2000-406A-B319-5DD06C6EE7D2}">
 					<Child Name="cell" Owner="{E8924B97-854D-4BC5-B115-A3035F61BDFD}" />
+					<Child Name="textnodeNotifications" Owner="{F6A43955-6ED0-49D9-ACC2-009FB930CE73}" />
+					<Child Name="vg" Owner="{42F9EA74-5691-41E8-A588-9690DA02636D}" />
+					<Child Name="buttonLastPage" Owner="{92677FD4-63AD-4606-A7D2-0EDC1BF45D31}" />
 				</Child>
 				<Child Name="textnodePnId24List" Owner="{21D3CD57-CA0B-4C36-83F7-CE69E4B5C3BC}">
 					<Child Name="textnodeHubShipmentSearchFilters" Owner="{0CD27381-8B5B-4F67-8FD5-6F20C72BD186}">
@@ -8226,6 +8460,15 @@
 					</Child>
 					<Child Name="currencyDrop" Owner="{87376FD5-2862-45E7-92D4-CF2E71D8AE55}" />
 				</Child>
+				<Child Name="firstNotificationPag1" Owner="{2CACD6A9-A1A8-47DC-BCE2-B662783F6948}" />
+				<Child Name="latestNotificationHome" Owner="{C500272E-6C96-4D9B-A7AA-FCA1831A8A01}" />
+				<Child Name="textnodePnId20List" Owner="{8690A677-749C-4C00-9C1C-B55B2E320607}">
+					<Child Name="textnode50" Owner="{E568C2D3-3EFB-4183-82CF-51E3340DDEE9}" />
+					<Child Name="textnode10" Owner="{A5567A61-4440-4F7C-93F1-25362204BF24}" />
+				</Child>
+				<Child Name="textnode502" Owner="{8234E595-1842-43F3-883D-79987D0F604B}" />
+				<Child Name="latestNotiPage50" Owner="{982A3459-FD2B-481E-80A6-2104488DFB6C}" />
+				<Child Name="fisrtNotiLatestPage" Owner="{0F7FAC66-EF61-416F-91CB-D9A437C4544A}" />
 			</Child>
 			<Child Name="pageInbox265Rmsautomation24Gmail" Owner="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
 				<Child Name="textnodeEmail" Owner="{2AA56725-ADA1-4324-BCDB-3EFC8EF2BA47}" />
