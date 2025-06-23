@@ -1092,10 +1092,16 @@
 										<Image FileName="-1895219321" Left="0" Top="175" Right="51" Bottom="221" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//nav/li/a[contains(@class, &apos;nav-link&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//nav/li/a" />
+												<Value Value="xpath=//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li/a" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1105,6 +1111,9 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//nav/li/a/fa-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//nav/li/a/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6499,6 +6508,9 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//h5[.=&apos;Terms and remarks&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="ngb-modal-window[contains(., &apos;Terms and remarks&apos;)]" />
 											</Selector>
 											<Selector>
@@ -7210,6 +7222,9 @@
 										<Image FileName="399708106" Left="1728" Top="685" Right="1743" Bottom="700" />
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[@role=&apos;button&apos; and @aria-label=&apos;dropdown trigger&apos; and contains(@class, &apos;p-dropdown-trigger&apos;)])[2]" />
+											</Selector>
 											<Selector>
 												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
 											</Selector>
