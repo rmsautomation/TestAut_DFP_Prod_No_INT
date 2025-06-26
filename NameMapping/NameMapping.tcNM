@@ -6880,10 +6880,10 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="xpath=//li[contains(@class, &apos;p-autocomplete-item&apos;)][1]" />
 											</Selector>
 											<Selector>
-												<Value Value="//li[@id=&apos;pn_id_13_0&apos;]/div[contains(@class, &apos;d-flex&apos;)]" />
+												<Value Value="xpath=//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;China&apos;)]" />
@@ -7319,9 +7319,6 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#pn_id_20_0" />
-											</Selector>
-											<Selector>
 												<Value Value="//li[.=&apos;10&apos;]" />
 											</Selector>
 											<Selector>
@@ -7370,6 +7367,83 @@
 											</Selector>
 											<Selector>
 												<Value Value="//li/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{1741010A-1C9B-4951-9F98-9FA4894072C9}">
+										<Image FileName="503435524" Left="739" Top="653" Right="755" Bottom="669" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_62&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContainerType" Key="{19BB8FBC-4C34-435F-9081-3169FDC5BFE9}">
+										<Image FileName="2127893230" Left="605" Top="650" Right="711" Bottom="671" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Container Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//p-dropdown[2]//span[contains(@class, &apos;ng-star-inserted&apos;)]/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_62&apos;]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown[2]/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId62List" Key="{BF938535-F143-4A25-814E-06AD212DABD8}">
+										<Image FileName="206773686" Left="599" Top="535" Right="764" Bottom="882" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_62_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Dry&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_62&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown//p-overlay//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeObjectObject2" Key="{900CDC0E-7744-40FB-ACA6-541AB5E2656F}">
+										<Image FileName="206773686" Left="599" Top="847" Right="764" Bottom="882" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;All Types&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[10]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[10]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_62&apos;]//p-dropdownitem[10]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[10]/li" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -8422,6 +8496,11 @@
 						<Child Name="labelCrate" Owner="{1E911993-FF1A-4F31-A95A-836031DBEC38}" />
 						<Child Name="labelCustomsClearanceOrigin" Owner="{B1D42C2E-7EDA-444A-9A0E-10760AF44F00}" />
 						<Child Name="labelHazardousCargo" Owner="{67BFD8C1-7F4A-4E6C-A7B0-9E6E98B4FE81}" />
+						<Child Name="vg2" Owner="{1741010A-1C9B-4951-9F98-9FA4894072C9}" />
+						<Child Name="textnodeContainerType" Owner="{19BB8FBC-4C34-435F-9081-3169FDC5BFE9}" />
+						<Child Name="textnodePnId62List" Owner="{BF938535-F143-4A25-814E-06AD212DABD8}">
+							<Child Name="textnodeObjectObject2" Owner="{900CDC0E-7744-40FB-ACA6-541AB5E2656F}" />
+						</Child>
 					</Child>
 					<Child Name="buttonCreateQuotation" Owner="{9FCCC0C7-F4E2-4021-BAE7-D957A347EAF0}" />
 				</Child>
@@ -8447,7 +8526,7 @@
 				<Child Name="textnodeConfirmYourEmail" Owner="{D7851399-8215-4CE4-BE99-EFAF609CB68A}" />
 				<Child Name="panelYourEmailAddressHasBeen" Owner="{40EEA0E6-186E-4B95-A0CB-90D7B67FC6C6}" />
 				<Child Name="textnodePnId13List" Owner="{FFA26706-B690-462B-8984-472D9D6F0CC6}">
-					<Child Name="panelChina" Owner="{4D0FCAB2-F5EB-49C7-AF00-99602741664F}" />
+					<Child Name="firstOption" Owner="{4D0FCAB2-F5EB-49C7-AF00-99602741664F}" />
 				</Child>
 				<Child Name="textboxUndefined" Owner="{BB394D15-C04F-4A52-9AD7-2ACC23BDDB20}" />
 				<Child Name="panelChina2" Owner="{5E06DD48-2839-4DE5-BA29-5DC47E749C0C}" />
