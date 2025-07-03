@@ -108,6 +108,7 @@
 					<child name="ChangePaginationTo10" key="{6E571404-DF13-4B03-8668-6259EB5A2405}" path="ChangePaginationTo10.tcKDTest" />
 					<child name="GoToLatestPage" key="{B962251F-42EF-4B4E-9A67-C776D0DAA3F4}" path="GoToLatestPage.tcKDTest" />
 					<child name="SaveFirstNotiLatestPage" key="{1177BF59-2685-49DD-AD37-0DE9DD7861F4}" path="SaveFirstNotiLatestPage.tcKDTest" />
+					<child name="SaveTotalNotifications" key="{78D354A2-4D44-4090-B914-14FE4AA2A936}" path="SaveTotalNotifications.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="LoginAndLogout">

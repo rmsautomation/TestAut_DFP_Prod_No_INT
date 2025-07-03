@@ -7447,6 +7447,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode1To5Of" Key="{61F0FF20-168A-4627-940A-8260D360E3E4}">
+										<Image FileName="1289058124" Left="1171" Top="795" Right="1362" Bottom="810" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;1 to 5 of&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;small&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/qwyk-pagination/p-paginator//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1To5Of5" Key="{12059C3C-5B52-492A-B954-0E42E49223D9}">
+										<Image FileName="1289058124" Left="949" Top="823" Right="1006" Bottom="838" />
+										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//small[.=&apos;1 to 5 of 5&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//small[contains(@class, &apos;text-muted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//small" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox265Rmsautomation24Gmail" Key="{BCE4EDA9-409C-4CB0-9203-6E49D960A8A4}">
@@ -8541,6 +8571,8 @@
 					<Child Name="textnodeNotifications" Owner="{F6A43955-6ED0-49D9-ACC2-009FB930CE73}" />
 					<Child Name="vg" Owner="{42F9EA74-5691-41E8-A588-9690DA02636D}" />
 					<Child Name="buttonLastPage" Owner="{92677FD4-63AD-4606-A7D2-0EDC1BF45D31}" />
+					<Child Name="textnode1To5Of" Owner="{61F0FF20-168A-4627-940A-8260D360E3E4}" />
+					<Child Name="textnode1To5Of5" Owner="{12059C3C-5B52-492A-B954-0E42E49223D9}" />
 				</Child>
 				<Child Name="textnodePnId24List" Owner="{21D3CD57-CA0B-4C36-83F7-CE69E4B5C3BC}">
 					<Child Name="textnodeHubShipmentSearchFilters" Owner="{0CD27381-8B5B-4F67-8FD5-6F20C72BD186}">
