@@ -5849,10 +5849,10 @@
 										<TypeInfo Item0="{E797FAA1-FA75-4F98-AA90-440674DE0B1D}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="//div[.=&apos;Shanghai Pt&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[.=&apos;Shanghai Pt&apos;]" />
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div/ul/li/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//li/div" />
