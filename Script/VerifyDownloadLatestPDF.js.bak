@@ -48,7 +48,7 @@
  
       if (contents !== "") {
         // Variables to search for
-        var quote_id = Project.Variables.quote_id;
+        var quote_id = Project.Variables.quoteID;
         var commodity = Project.Variables.commodity;
         var origin = Project.Variables.origin.split(',')[0].trim();
         var destination = Project.Variables.destination.split(',')[0].trim();
